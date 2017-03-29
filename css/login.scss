@@ -1,0 +1,68 @@
+
+@import "main.scss";
+
+.login{
+  //padding: $login-padding;
+}
+
+.login .logo{
+  content:url("/assets/broadwaybank/logo-large.jpg");
+  width: $width;
+
+  position: absolute;
+  top:$status-bar-height;
+
+  border-style: solid;
+  border-width: $debug-border-width;
+  border-color: black;
+
+}
+
+
+.login .inputs-container{
+
+  margin-top: $height/3.33;
+
+  border-style: solid;
+  border-width: $debug-border-width;
+  border-color: black;
+
+  //position: relative;
+
+}
+.login input{
+  width: $width - ($login-padding*2);
+  height: $height/9;
+
+  display: block;
+  box-sizing: border-box;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  padding: $width/20;
+
+  font-size: $width/23;
+}
+
+
+.login .sign-on-section{
+  margin-top: $height/12;
+
+  color: $login-text-color;
+
+}
+.login .sign-on-button{
+  margin-right: auto;
+  margin-left: auto;
+
+  font-size: $width/15;
+  text-align: center;
+}
+
+.login .sign-on-forgot{
+  margin-top: $height/30;
+  font-size: $accent-text-size-small;
+  text-align: center;
+
+}

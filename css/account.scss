@@ -1,0 +1,53 @@
+
+@import "main.scss";
+
+.account-detail{
+
+
+}
+
+.account-detail .account-overview{
+  margin-top: $top-nav-total-height;
+
+
+}
+
+
+$balance-font-size: $width/5;
+.account-detail .account-overview .balance{
+  margin-top: $height/7;
+  font-size: $balance-font-size;
+
+  font-family: san-francisco-display;
+  font-weight: 100;
+
+  vertical-align: top;
+
+  text-align: center;
+}
+
+.account-detail .account-overview .balance .dollar{
+
+  font-size: $balance-font-size/2;
+  font-family: san-francisco-display;
+  font-weight: 100;
+
+  vertical-align: top;
+}
+
+.account-detail .account-overview .balance .cents{
+
+  font-size: $balance-font-size/2;
+  font-family: san-francisco-display;
+  font-weight: 100;
+
+  vertical-align: top;
+}
+
+.account-detail .account-overview .available-now{
+  text-align: center;
+
+  font-size: $accent-text-size-small;
+  font-weight: bold;
+}
+
