@@ -1,0 +1,155 @@
+
+
+$iPhone7-width:  1080;
+$iPhone7-height: 1920;
+
+$width:  $iPhone7-width;
+$height: $iPhone7-height;
+
+$debug-border-width: 0px;
+
+$login-padding: $width/30;
+
+$login-text-color: #626262;
+
+
+@font-face {
+  font-family: san-francisco;
+  src:url("/fonts/SFUI/System San Francisco Display Regular.ttf");
+}
+
+.iphone{
+  margin-top:100px;
+
+
+  width:  $width;
+  height: $height;
+  max-width: $width;
+  max-height: $height;
+  //overflow: hidden;
+
+  margin-right: auto;
+  margin-left:  auto;
+
+  //border-color: black;
+  //border-style: ridge;
+  //border-width: 15px;
+  //
+  //border-radius: 10px;
+
+  box-shadow: 0px 0px 75px black;
+
+  position: relative;
+
+  font-family: san-francisco;
+
+}
+
+.login{
+  //padding: $login-padding;
+}
+
+.login .logo{
+  content:url("/assets/broadwaybank/logo-large.jpg");
+  width: $width;
+
+  position: absolute;
+  top:0px;
+
+  border-style: solid;
+  border-width: $debug-border-width;
+  border-color: black;
+
+}
+
+
+.login .inputs-container{
+
+  margin-top: $height/3.33;
+
+  border-style: solid;
+  border-width: $debug-border-width;
+  border-color: black;
+
+  //position: relative;
+
+}
+.login input{
+  width: $width - ($login-padding*2);
+  height: $height/9;
+
+  display: block;
+  box-sizing: border-box;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  padding: $width/20;
+
+  font-size: $width/23;
+}
+
+
+.login .sign-on-section{
+  margin-top: $height/12;
+
+  color: $login-text-color;
+
+}
+.login .sign-on-button{
+  margin-right: auto;
+  margin-left: auto;
+
+  font-size: $width/15;
+  text-align: center;
+}
+
+.login .sign-on-forgot{
+  margin-top: $height/30;
+  font-size: $width/31;
+  text-align: center;
+
+}
+
+$footer-height: $height/15;
+.footer{
+  position: absolute;
+  width: $width - $login-padding*2;
+
+  top:    $height - $footer-height;
+  left:   $login-padding;
+  height: $footer-height;
+
+  //background-color: red;
+
+  opacity: .5;
+
+  border-style: solid;
+  border-color: $login-text-color;
+  border-width: 5px 0px 0px 0px;
+  padding-top:$width/50;
+
+}
+
+.footer > div{
+  width: $width/3.3;
+  font-size: $width/27;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
