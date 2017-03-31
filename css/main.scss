@@ -8,54 +8,27 @@ $height: $iPhone7-height;
 $debug-border-width: 0px;
 $login-padding: $width/30;
 $status-bar-height: 40px;
-$top-nav-height:    90px;
+
+$top-nav-height:    $height/16.7;
 $top-nav-total-height: $status-bar-height + $top-nav-height;
 
-$login-text-color: #626262;
+$login-text-color:            #626262;
+$light-border-color:          #b7b7b7;
+$footer-background-color:     #f9f9f9;
+$light-background-color:      #e0e0e0;
 
-$brand-primary-color: #a71119;
-$brand-dark-accent:   #4c1013;
-$light-text-color: white;
+$brand-primary-color:         #a71119;
+$brand-medium-accent:         #7c1119;
+$brand-dark-accent:           #4c1013;
+$brand-almost-black-accent:   #210506;
+$light-text-color: #ececec;
 
 $accent-text-size-small: $width/31;
 
+$footer-tab-highlight-color: $brand-medium-accent;
 
-
-@font-face {
-  font-family: san-francisco-text;
-  src:         url("/fonts/SF/SFText-Regular.otf");
-  font-weight: normal;
-  font-style:  normal;
-}
-@font-face {
-  font-family: san-francisco-text;
-  src:         url("/fonts/SF/SFText-Bold.otf");
-  font-weight: bold;
-  font-style:  normal;
-}
-@font-face {
-  font-family: san-francisco-display;
-  src:         url("/fonts/SF/SFDisplay-Regular.otf");
-  font-weight: normal;
-  font-style:  normal;
-}
-@font-face {
-  font-family: san-francisco-display;
-  src:         url("/fonts/SF/SFDisplay-Bold.otf");
-  font-weight: bold;
-  font-style:  normal;
-}
-@font-face {
-  font-family: san-francisco-display;
-  src:         url("/fonts/SF/SFDisplay-Ultralight.otf");
-  font-weight: 100;
-  font-style:  normal;
-}
-@font-face {
-  font-family: san-francisco-display;
-  src:         url("/fonts/SF/SFDisplay-Light.otf");
-  font-weight: 200;
-  font-style:  normal;
+div{
+  box-sizing: border-box;
 }
 
 
@@ -67,7 +40,7 @@ $accent-text-size-small: $width/31;
   height: $height;
   max-width: $width;
   max-height: $height;
-  //overflow: hidden;
+  overflow: hidden;
 
   margin-right: auto;
   margin-left:  auto;
@@ -125,71 +98,72 @@ $accent-text-size-small: $width/31;
 
 }
 
-.top-nav{
-  position:         absolute;
-  background-color: $brand-dark-accent;
-  top: 0;
-  padding-top:  $status-bar-height;
-  height:       $top-nav-total-height;
-  //line-height:  100px;
-  width: $width;
-
-  color: $light-text-color;
-
-  text-align: center;
-
-  font-size: $status-bar-height * 1.2;
-}
-.top-nav > span{
-  padding-top: $top-nav-height *.3;
-  display:        inline-block;
-  vertical-align: middle;
-  line-height:    normal;
-}
-.top-nav .left{
-  float: left;
-  padding-left:30px;
-}
-.top-nav .middle{
-
-}
-.top-nav .right{
-  float: right;
-  padding-right:30px;
-}
-.top-nav .back-button{
-  font-size: $status-bar-height * 1.7;
-}
-
-
 $footer-height: $height/15;
 .footer{
   position: absolute;
-  width: $width - $login-padding*2;
+
 
   top:    $height - $footer-height;
-  left:   $login-padding;
   height: $footer-height;
 
   //background-color: red;
 
-  opacity: .5;
-
   border-style: solid;
-  border-color: $login-text-color;
   border-width: 5px 0px 0px 0px;
-  padding-top:$width/50;
-
 }
 
-.footer > div{
+.login .footer > div{
   width: $width/3.3;
   font-size: $width/27;
 }
 
-.account-detail .status-bar{
+.page-type1        .status-bar,
+.account-detail    .status-bar,
+.accounts-overview .status-bar{
   color: $light-text-color;
 }
+
+.login .footer{
+  width: $width - $login-padding*2;
+  left:   $login-padding;
+  opacity: .5;
+  border-color: $login-text-color;
+  padding-top:$width/50;
+}
+
+.page-type1        .footer,
+.account-detail    .footer,
+.accounts-overview .footer{
+  opacity: 1;
+  width: $width;
+  left: 0px;
+
+  border-color: #b0b0b0;
+  background-color: $footer-background-color;
+
+  display: flex;
+
+  padding-top: 0;
+}
+
+.page-type1        .footer > div,
+.account-detail    .footer > div,
+.accounts-overview .footer > div{
+  text-align: center;
+  font-size: $footer-height / 4.5;
+  padding-top: $footer-height / 15;
+  margin-top: 0;
+
+  color: #888888;
+  //padding-bottom: $footer-height / 50;
+}
+
+
+
+
+
+
+
 
 
 

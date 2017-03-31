@@ -1,0 +1,51 @@
+
+@import "main.scss";
+
+.move-money{
+  background-color: $footer-background-color;
+}
+
+.move-money .footer > div:nth-child(2){
+  color: $footer-tab-highlight-color;
+}
+
+.move-money .options-container{
+  position: absolute;
+  top: $top-nav-total-height;
+  left: 0;
+  width: $width;
+  //margin-top: $top-nav-total-height;
+
+  font-family: san-francisco-display;
+  font-weight: 200;
+}
+
+.move-money .options-container .options-list{
+  background-color: white;
+  margin-top: $height/12;
+}
+
+.move-money .options-container .options-list .option{
+  padding: $width/30;
+
+  border-style: solid;
+  border-color: $footer-background-color;
+  border-width: 3px;
+
+  font-size: $width/27;
+}
+.move-money .options-container .options-list .option .description{
+ display: inline-block;
+  width: 89%;
+
+  //background-color: aqua;
+}
+.move-money .options-container .options-list .option .button{
+  display: inline-block;
+  width: 9%;
+  text-align: right;
+
+  color: $login-text-color;
+
+  //background-color: #7c1119;
+}

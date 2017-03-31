@@ -1,0 +1,124 @@
+
+@import "main.scss";
+
+.configure-transfer-or-payment{
+  background-color: $light-background-color;
+
+}
+
+.configure-transfer-or-payment .body{
+  position: absolute;
+  top:      $top-nav-total-height;
+  left:     0;
+  width:    $width;
+
+  font-family: san-francisco-display;
+  font-weight: 200;
+}
+
+.configure-transfer-or-payment .body .heading-tip{
+  width: $width;
+  height: $height/19.5;
+
+  background-color: $brand-almost-black-accent;
+  color: $light-text-color;
+  text-align: center;
+
+  font-size: $width/22;
+}
+
+.configure-transfer-or-payment .body .configuration-container{
+  background-color: white;
+
+
+}
+
+$configure-transfer-or-payment-options-height: $height/10;
+
+.configure-transfer-or-payment .body .configuration-container .option{
+  height: $configure-transfer-or-payment-options-height;
+
+  //background-color: #8f8f8f;
+
+  font-size: $width/22;
+}
+
+.configure-transfer-or-payment .body .configuration-container .option .indicator{
+  display: inline-block;
+
+  width: $width*.12;
+  padding-left: $width/60;
+  text-align: center;
+}
+.configure-transfer-or-payment .body .configuration-container .option .undone-indicator{
+  color: #c2c2c2;
+}
+.configure-transfer-or-payment .body .configuration-container .option .done-indicator{
+  color: $brand-primary-color;
+}
+.configure-transfer-or-payment .body .configuration-container .option .label{
+  display: inline-block;
+
+  width: $width*.20;
+
+  color: $brand-almost-black-accent;
+
+
+}
+.configure-transfer-or-payment .body .configuration-container .option .select-section{
+  display: inline-block;
+
+  text-align: right;
+  padding-right: $width/40;
+
+  width: $width*.60;
+}
+.configure-transfer-or-payment .body .configuration-container .option .un-selected{}
+.configure-transfer-or-payment .body .configuration-container .option .selected{}
+
+.configure-transfer-or-payment .body .configuration-container .option .button{
+  display: inline-block;
+
+  color: #c2c2c2;
+  font-size: $width/15;
+
+}
+
+.configure-transfer-or-payment .body .configuration-container .option .separator{
+  display: inline-block;
+  height: $configure-transfer-or-payment-options-height;
+
+  border-style: solid;
+  border-width: 0 0 4px 0;
+  border-color: $light-background-color;
+}
+
+
+.configure-transfer-or-payment .body .confirm-button-section{
+  text-align: center;
+  margin-top: $height/7;
+}
+.configure-transfer-or-payment .body .confirm-button{
+
+  display: inline-block;
+
+  //background-color: $brand-medium-accent;
+  //color: $brand-dark-accent;
+
+  text-align: center;
+
+  font-size: $width/12;
+
+  padding: $width/22;
+
+  font-family: san-francisco-text;
+
+  border-radius: 20px 0 20px 21px;
+}
+
+.configure-transfer-or-payment .body .confirm-button-enabled{
+  color: $brand-primary-color;
+}
+.configure-transfer-or-payment .body .confirm-button-disabled{
+  color: #6a6a6a;
+}

@@ -1,0 +1,45 @@
+
+@import "main.scss";
+
+.top-nav{
+  position:         absolute;
+  top: 0;
+  padding-top:  $status-bar-height;
+  height:       $top-nav-total-height;
+  width:        $width;
+
+  text-align: center;
+  font-size: $status-bar-height * 1.2;
+}
+.top-nav .left{
+  float: left;
+  padding-left:30px;
+}
+.top-nav .middle{
+
+}
+.top-nav .right{
+  float: right;
+  padding-right:30px;
+}
+
+//MAIN PAGE
+.main-page .top-nav{
+  background-color: $brand-dark-accent;
+  color: $light-text-color;
+}
+.main-page .top-nav > span{
+  padding-top: $top-nav-height *.3;
+  display:        inline-block;
+  vertical-align: middle;
+  line-height:    normal;
+}
+.main-page .top-nav .back-button{
+  font-size: $status-bar-height * 1.7;
+}
+
+// SUB PAGE
+.sub-page .top-nav{
+  background-color: white;
+  color: $brand-almost-black-accent;
+}

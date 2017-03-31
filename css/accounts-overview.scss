@@ -1,0 +1,119 @@
+@import "main.scss";
+
+
+$account-list-item-height:  $height/6;
+$account-list-item-padding: $width/20;
+$chevron-width: $width/10;
+
+.accounts-overview .footer > div:nth-child(1){
+  color: $footer-tab-highlight-color;
+}
+
+.accounts-overview .account-list{
+  margin-top: $top-nav-total-height;
+}
+
+.accounts-overview .account-list .account{
+  //padding:    $width/35;
+  height:     $account-list-item-height;
+  max-height: $account-list-item-height;
+
+  //background-color: #8f8f8f;
+
+  position: relative;
+
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-width: 0 0 3px 0;
+
+  color: $login-text-color;
+
+}
+.accounts-overview .account-list .account .account-left{
+  display: inline-block;
+  max-width: $width * .55;
+}
+.accounts-overview .account-list .account .description{
+  font-size: $width/22;
+
+  padding: $account-list-item-padding 0 0 $account-list-item-padding;
+}
+
+.accounts-overview .account-list .account .available-balance{
+  float: right;
+  right: $chevron-width;
+
+  font-family: san-francisco-display;
+  font-weight: 200;
+
+  padding: $account-list-item-height/5 $account-list-item-padding 0 0;
+
+  color: $brand-medium-accent;
+}
+.accounts-overview .account-list .account .available-balance .amount{
+  display: flex;
+}
+.accounts-overview .account-list .account .available-balance .label{
+  text-align: center;
+  font-size: $width/30;
+}
+
+
+.accounts-overview .account-list .account .available-balance .symbol{
+  font-size: $width/18;
+
+}
+
+.accounts-overview .account-list .account .available-balance .dollars{
+  font-size: $width/9;
+}
+
+.accounts-overview .account-list .account .available-balance .cents{
+  font-size: $width/18;
+}
+
+.accounts-overview .account-list .account .current-balance{
+  display: flex;
+  padding: $account-list-item-height/25 0 0 $account-list-item-padding;
+
+}
+.accounts-overview .account-list .account .current-balance .label{
+  font-size: $width/35;
+  padding: $width/160 $width/80 0 0;
+}
+
+.accounts-overview .account-list .account .current-balance .symbol{
+  font-size: $width/40;
+}
+
+.accounts-overview .account-list .account .current-balance .dollars{
+  font-size: $width/25;
+}
+
+.accounts-overview .account-list .account .current-balance .cents{
+  font-size: $width/40;
+}
+
+.accounts-overview .account-list .account .more-chevron{
+  float:     right;
+  font-size: $width/12;
+
+  //position: absolute;
+  //top:0;
+  //right: 0;
+
+  //height:     $account-list-item-height;
+  padding:    0 $width/35 0 $width/35;
+
+  vertical-align: middle;
+
+  margin-top:    $account-list-item-height/3;
+
+
+  //background-color: #626262;
+
+  box-sizing: border-box;
+
+}

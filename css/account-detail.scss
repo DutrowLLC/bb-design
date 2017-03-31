@@ -1,0 +1,135 @@
+
+@import "main.scss";
+
+
+.account-detail{
+
+}
+
+.account-detail .footer > div:nth-child(1){
+  color: $footer-tab-highlight-color;
+}
+
+.account-detail .account-overview{
+  margin-top: $top-nav-total-height;
+
+
+}
+
+
+$balance-font-size: $width/5;
+.account-detail .account-overview .balance{
+  margin-top: $height/7;
+  font-size: $balance-font-size;
+
+  font-family: san-francisco-display;
+  font-weight: 100;
+
+  vertical-align: top;
+
+  text-align: center;
+}
+
+.account-detail .account-overview .balance .dollar{
+
+  font-size: $balance-font-size/2;
+  font-family: san-francisco-display;
+  font-weight: 100;
+
+  vertical-align: top;
+}
+
+.account-detail .account-overview .balance .cents{
+
+  font-size: $balance-font-size/2;
+  font-family: san-francisco-display;
+  font-weight: 100;
+
+  vertical-align: top;
+}
+
+.account-detail .account-overview .available-now{
+  text-align: center;
+
+  font-size: $accent-text-size-small;
+  font-weight: bold;
+}
+
+.account-detail .transactions{
+  margin-top: $width/15;
+
+}
+.account-detail .transactions > div{
+  border-style: solid;
+  border-color: #8f8f8f;
+  border-width: 3px 0 0 0;
+
+  //padding:$width/40;
+
+  padding: $width/40 0 $width/40 0;
+
+  width: $width - $width/20;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.account-detail .transactions > div:nth-child(odd){
+  //background-color: #eeeeee;
+}
+
+.account-detail .transactions > div .transaction-left{
+  width: $width*.75;
+  margin-right:-2px;
+  display: inline-block;
+}
+
+.account-detail .transactions > div .transaction-right{
+  widith: $width*.25;
+  margin-left: -2px;
+  display: inline-block;
+  text-align: right;
+}
+
+
+$transaction-dark: #3b3b3b;
+
+$transaction-light: #696969;
+$transaction-small: $width/30;
+.account-detail .transactions > div .description{
+  font-size: $width/25;
+  color: $transaction-dark;
+  padding-bottom: $width/120;
+  text-overflow: ellipsis;
+}
+.account-detail .transactions > div .date{
+  font-size: $transaction-small;
+  color: $transaction-light;
+}
+.account-detail .transactions > div .amount{
+  font-size: $width/20;
+  color: $transaction-dark;
+}
+.account-detail .transactions > div .balance{
+  font-size: $transaction-small;
+  color: $transaction-light;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
