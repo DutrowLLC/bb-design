@@ -1,0 +1,54 @@
+@import "main.scss";
+
+$select-from-account-font-size: $main-option-font-size;
+
+.select-from-account{
+  background-color: $light-background-color;
+
+}
+
+.select-from-account .body{
+  position: absolute;
+  top:      $top-nav-total-height;
+  left:     0;
+  width:    $width;
+
+  font-family: san-francisco-display;
+  font-weight: 200;
+}
+
+.select-from-account .body .account-list{
+  margin-top: $top-body-spacer;
+}
+
+.select-from-account .body .option{
+  background-color: white;
+
+  font-family: san-francisco-text;
+
+  font-size: $main-option-font-size;
+
+  color: $brand-almost-black-accent;
+
+  //margin-bottom: $height/130;
+
+}
+
+.select-from-account .body .option .inner-option{
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: $light-background-color;
+
+  padding: $height/20 0 $height/20 0;
+  margin:  0 $width/17.5 0 $width/17.5;
+}
+
+.select-from-account .body .account-description{
+  font-weight: normal;
+
+}
+.select-from-account .body .amount-available{
+  font-size: $secondary-option-font-font-size;
+  padding-top: $height/130;
+  color: $secondary-option-color;
+}

@@ -4,7 +4,11 @@ var pages = [
   'accounts-overview',
   'account-detail',
   'move-money',
-  'configure-transfer-or-payment'
+  'configure-transfer-or-payment',
+  'select-from-account',
+  'select-to-account',
+  'select-to-payee',
+  'mobile-deposit'
 ];
 
 
@@ -12,16 +16,16 @@ var pages = [
 $(document).ready(function(){
 
   // ADD MODIFIED ONES
-  $("#configure-transfer-or-payment-filled-in").load("/html/configure-transfer-or-payment.html");
+  $("#configure-transfer-or-payment-filled-in").load("./html/configure-transfer-or-payment.html");
 
 
   // ADD CSS
   for( var i=0; i< pages.length; i++){
     var page = pages[i];
     // ADD CSS
-    $('head').append('<link rel="stylesheet" href="/css/'+page+'.css" type="text/css" />');
+    $('head').append('<link rel="stylesheet" href="./css/'+page+'.css" type="text/css" />');
     // ADD HTML
-    $("#"+page) .load("/html/"+page+".html",
+    $("#"+page) .load("./html/"+page+".html",
       (function(i){
       if( i == pages.length-1){
 
@@ -60,4 +64,10 @@ var fillInConfigureTransferOrPayment = function(){
   elem.find('.done-indicator')  .show();
 
   elem.find('.confirm-button').removeClass('confirm-button-disabled').addClass('confirm-button-enabled');
+
+  elem.find('.heading-tip').removeClass('heading-tip-working').addClass('heading-tip-ready');
+
+  elem.find('.select-section.un-selected').hide();
+  elem.find('.select-section.selected').show();
+
 };

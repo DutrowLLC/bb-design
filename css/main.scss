@@ -27,13 +27,19 @@ $accent-text-size-small: $width/31;
 
 $footer-tab-highlight-color: $brand-medium-accent;
 
+$top-body-spacer: $height/19.5;
+
+$main-option-font-size: $width/22;
+$secondary-option-font-font-size: $main-option-font-size * .8;
+$secondary-option-color: #4b4b4b;
+
 div{
   box-sizing: border-box;
 }
 
 
 .iphone{
-  margin-top:100px;
+  margin: 50px;
 
 
   width:  $width;
@@ -42,8 +48,8 @@ div{
   max-height: $height;
   overflow: hidden;
 
-  margin-right: auto;
-  margin-left:  auto;
+  //margin-right: auto;
+  //margin-left:  auto;
 
   //border-color: black;
   //border-style: ridge;

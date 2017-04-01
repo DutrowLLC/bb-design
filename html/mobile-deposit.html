@@ -41,46 +41,19 @@
   <!-- BODY -->
   <!-- Heading tip -->
   <div class="body">
-    <div class="heading-tip heading-tip-working">
-      <div v-middle style="background-color: transparent;">
-          Set up a transfer or a payment:
+    <!-- HEADING -->
+    <div class="heading-container">
+      <div class="heading-block">
+        <div class="account description">
+          StarChecking 0469
+        </div>
+        <div class="deposit-available">
+          You can deposit $500.00 more via mobile.
+        </div>
       </div>
-
     </div>
     <!-- CONFIGURATION -->
     <div class="configuration-container">
-
-      <!-- FROM ACCOUNT OPTION -->
-      <div class="option">
-        <div class="indicator undone-indicator">
-          <i v-middle class="fa fa-square-o" aria-hidden="true"></i>
-        </div>
-        <div class="indicator done-indicator" style="display: none;">
-          <i v-middle class="fa fa-check-square" aria-hidden="true"></i>
-        </div>
-        <div class="separator">
-          <div v-middle class="label">
-            From
-          </div>
-
-          <div v-middle class="select-section un-selected">
-            Select Account
-          </div>
-          <div v-middle class="select-section selected" style="display: none;">
-            <div class="account-description">
-              StarChecking 0469
-            </div>
-            <div class="amount-available">
-              $&nbsp;96.06 available
-            </div>
-          </div>
-
-          <div v-middle class="button">
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-      <!-- END FROM ACCOUNT OPTION -->
 
       <!-- TO ACCOUNT OPTION -->
       <div class="option">
@@ -140,7 +113,7 @@
       </div>
       <!-- END AMOUNT OPTION -->
 
-      <!-- DATE OPTION -->
+      <!-- FRONT OF CHECK  -->
       <div class="option">
         <div class="indicator undone-indicator">
           <i v-middle class="fa fa-square-o" aria-hidden="true"></i>
@@ -151,22 +124,27 @@
 
         <div class="separator" style="border-width:0px;">
           <div v-middle class="label">
-            Date
+            Front of Check
           </div>
+
+          <!-- SELECTION -->
           <div v-middle class="select-section un-selected">
-            03/30/2017
+            <div class="check-image-box">
+              IMAGE
+            </div>
           </div>
           <div v-middle class="select-section selected" style="display: none;">
-            <div class="account-description">04/02/2017</div>
-            <div class="amount-available">Sunday</div>
+
 
           </div>
+          <!-- END SELECTION -->
           <div v-middle class="button">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
           </div>
         </div>
       </div>
-      <!-- END DATE OPTION -->
+      <!-- END FRONT OF CHECK -->
+
     </div>
 
     <div class="confirm-button-section">
@@ -181,5 +159,5 @@
   <!-- END BODY -->
 
 
-  </div>
+</div>
 </div>

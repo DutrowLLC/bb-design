@@ -18,13 +18,20 @@
 
 .configure-transfer-or-payment .body .heading-tip{
   width: $width;
-  height: $height/19.5;
+  height: $top-body-spacer;
 
-  background-color: $brand-almost-black-accent;
   color: $light-text-color;
   text-align: center;
 
   font-size: $width/22;
+}
+
+.heading-tip-working{
+  background-color: $brand-almost-black-accent;
+
+}
+.heading-tip-ready{
+  background-color: $brand-primary-color;
 }
 
 .configure-transfer-or-payment .body .configuration-container{
@@ -34,13 +41,12 @@
 }
 
 $configure-transfer-or-payment-options-height: $height/10;
+$option-font-size: $width/22;
 
 .configure-transfer-or-payment .body .configuration-container .option{
   height: $configure-transfer-or-payment-options-height;
 
-  //background-color: #8f8f8f;
-
-  font-size: $width/22;
+  font-size: $option-font-size;
 }
 
 .configure-transfer-or-payment .body .configuration-container .option .indicator{
@@ -60,10 +66,12 @@ $configure-transfer-or-payment-options-height: $height/10;
   display: inline-block;
 
   width: $width*.20;
+  max-width: $width*.20;
+
+  max-height: $configure-transfer-or-payment-options-height;
+  overflow: hidden;
 
   color: $brand-almost-black-accent;
-
-
 }
 .configure-transfer-or-payment .body .configuration-container .option .select-section{
   display: inline-block;
@@ -75,6 +83,15 @@ $configure-transfer-or-payment-options-height: $height/10;
 }
 .configure-transfer-or-payment .body .configuration-container .option .un-selected{}
 .configure-transfer-or-payment .body .configuration-container .option .selected{}
+.configure-transfer-or-payment .body .configuration-container .option .select-section .account-description{
+  font-size: $option-font-size * 0.9;
+  font-family: san-francisco-text;
+}
+.configure-transfer-or-payment .body .configuration-container .option .select-section .amount-available{
+  font-family: san-francisco-text;
+  margin-top: $option-font-size *.4;
+  font-size: $option-font-size * 0.7;
+}
 
 .configure-transfer-or-payment .body .configuration-container .option .button{
   display: inline-block;
