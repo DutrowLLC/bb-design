@@ -54,21 +54,29 @@ div{
   max-height: $height;
   overflow: hidden;
 
-  //margin-right: auto;
-  //margin-left:  auto;
-
-  //border-color: black;
-  //border-style: ridge;
-  //border-width: 15px;
-  //
-  //border-radius: 10px;
-
   box-shadow: 0px 0px 75px black;
 
   position: relative;
 
   font-family: san-francisco-text;
 
+}
+
+.iPhoneLandscape{
+  margin: 50px;
+
+
+  width:  $height;
+  height: $width;
+  max-width: $height;
+  max-height: $width;
+  overflow: hidden;
+
+  box-shadow: 0px 0px 75px black;
+
+  position: relative;
+
+  font-family: san-francisco-text;
 }
 
 .status-bar{

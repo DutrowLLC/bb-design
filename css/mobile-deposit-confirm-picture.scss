@@ -1,0 +1,61 @@
+
+@import "main.scss";
+
+$mdc-check-percent: .65;
+$mdc-font-size: $width/20;
+$mdc-padding-top: $width/15;
+
+
+.mobile-deposit-confirm-picture{
+  background-color: $brand-dark-accent;
+  color: white;
+
+}
+
+.mobile-deposit-confirm-picture .label{
+  height: $width * (1-$mdc-check-percent)/2;
+
+  font-size: $mdc-font-size;
+
+  text-align: center;
+
+  padding-top: $mdc-padding-top;
+
+}
+.mobile-deposit-confirm-picture .picture{
+  background-image: url('../assets/check-landscape.jpg');
+  background-size: cover;
+
+  width: $height * $mdc-check-percent;
+  height: $width * $mdc-check-percent;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  box-shadow: 0px 0px 40px black;
+
+}
+
+.mobile-deposit-confirm-picture .bottom-buttons{
+  height: $width * (1-$mdc-check-percent)/2;
+
+  font-size: $mdc-font-size;
+
+  text-align: center;
+
+  padding-top: $mdc-padding-top;
+
+}
+.mobile-deposit-confirm-picture .button-left{
+  display: inline-block;
+  width:   49%;
+
+}
+.mobile-deposit-confirm-picture .button-right{
+  display: inline-block;
+  width: 49%;
+
+}
+
+
+

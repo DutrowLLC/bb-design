@@ -66,3 +66,24 @@
   text-align: center;
 
 }
+
+.login .touch-id-section{
+
+  margin-top: $height/17;
+  text-align: center;
+
+}
+
+.login .touch-id-icon{
+  display: inline-block;
+
+  mask-image:         url('../assets/fingerprint.svg');
+  -webkit-mask-image: url('../assets/fingerprint.svg');
+  //background: url('../assets/fingerprint.svg');;
+  background-color:   $brand-primary-color;
+
+  background-size: cover;
+
+  width:  $width/8;
+  height: $width/8;
+}

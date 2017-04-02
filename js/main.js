@@ -9,7 +9,8 @@ var pages = [
   'select-to-account',
   'select-to-payee',
   'mobile-deposit',
-  'mobile-deposit-take-picture'
+  'mobile-deposit-take-picture',
+  'mobile-deposit-confirm-picture'
 ];
 
 
@@ -39,6 +40,7 @@ $(document).ready(function(){
           doVerticalAlign();
           doVerticalAlign2();
           doVerticalAlign3();
+          doJqCenter();
           }, 200);
       }
     })(i));
@@ -86,6 +88,62 @@ var doVerticalAlign3 = function(){
     elem.css   ('padding-bottom', paddingBottom);
   });
 };
+var doJqCenter = function(){
+
+    $('[jq-center]').each(function(index, elem) {
+      elem = $(elem);
+      var height       = elem.height();
+      var scrollHeight = elem[0].scrollHeight;
+      var scrollWidth  = elem[0].scrollWidth;
+
+      elem.css('margin-left', -scrollWidth/2);
+
+      // //var transform = elem.css('transform');
+      // var angle = getRotationAngle(elem);
+      //
+      // var property = 'margin-left';
+      // if(angle == 90){
+      //   var t = scrollHeight;
+      //   scrollHeight = scrollWidth;
+      //   scrollWidth = t;
+      //   property = 'margin-top';
+      // }
+      //
+      // //elem.css('margin-right', ''+-scrollWidth/2+'px');
+      // elem.css(property,   ''+-scrollHeight/2+'px');
+      // //elem.css('background-color', 'white');
+      //
+      // var a = 1;
+
+    });
+
+};
+
+var getRotationAngle = function(elem){
+  var tr = elem.css("transform");
+
+  var values = tr.split('(')[1];
+  values = values.split(')')[0];
+  values = values.split(',');
+  var a = values[0];
+  var b = values[1];
+  var c = values[2];
+  var d = values[3];
+
+  var scale = Math.sqrt(a*a + b*b);
+
+// arc sin, convert from radians to degrees, round
+// DO NOT USE: see update below
+  var sin = b/scale;
+  var angle = Math.round(Math.asin(sin) * (180/Math.PI));
+
+// works!
+  //console.log('Rotate: ' + angle + 'deg');
+
+  return angle;
+}
+
+
 
 var fillInConfigureTransferOrPayment = function(){
   var elem = $("#configure-transfer-or-payment-filled-in");

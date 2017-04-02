@@ -8,7 +8,7 @@ $md-height-top-margin: $width/7.0;
 $md-frame-border-width: $width/60;
 
 .mobile-deposit-take-picture{
-  background-image: url('../assets/check.jpg');
+  background-image: url('../assets/check-landscape.jpg');
   background-size: cover;
 }
 
@@ -25,62 +25,73 @@ $md-frame-border-width: $width/60;
   border-color: white;
   border-style: solid;
 
-  height: $height/10;
-  width:  $width/10;
+  height: $width/10;
+  width:  $height/10;
 }
 
 .mobile-deposit-take-picture .top-left{
-  top:   $md-width-margin;
-  right: $md-height-top-margin;
-
-  border-width: $md-frame-border-width $md-frame-border-width 0 0;
-}
-
-.mobile-deposit-take-picture .top-right{
-  bottom:   $md-width-margin;
-  right:    $md-height-top-margin;
-
-
-  border-width: 0 $md-frame-border-width $md-frame-border-width 0 ;
-}
-.mobile-deposit-take-picture .bottom-left{
-  top:     $md-width-margin;
-  left:    $md-height-margin;
+  top:   $md-height-top-margin;
+  left:  $md-height-margin;
 
   border-width: $md-frame-border-width 0 0 $md-frame-border-width;
 }
-.mobile-deposit-take-picture .bottom-right{
-  bottom:     $md-width-margin;
+
+.mobile-deposit-take-picture .top-right{
+  top:   $md-height-top-margin;
+  right: $md-height-margin;
+
+
+  border-width: $md-frame-border-width $md-frame-border-width 0 0;
+}
+.mobile-deposit-take-picture .bottom-left{
+  bottom:  $md-width-margin;
   left:    $md-height-margin;
 
   border-width: 0 0 $md-frame-border-width $md-frame-border-width;
 }
+.mobile-deposit-take-picture .bottom-right{
+  bottom:   $md-width-margin;
+  right:    $md-height-margin;
+
+  border-width: 0 $md-frame-border-width $md-frame-border-width 0;
+}
 
 .mobile-deposit-take-picture .icon{
   position: absolute;
-  transform: rotate(90deg);
+  //transform: rotate(90deg);
 
   font-size: $width/10;
 
-  text-shadow: 0px 0px 40px black;
+  text-shadow: 0px 0px 20px black;
+
+  //max-height: 10px;
+  //max-width: 10px;
+
+  //background-color: red;
+
+  overflow: visible;
+  white-space: nowrap;
+
+  text-align: center;
+
 }
 
 .mobile-deposit-take-picture .cancel{
   top:    $height/60;
-  right:  $height/60;
+  left:   $height/60;
 
 }
 .mobile-deposit-take-picture .label{
-  top:   $height/2;
-  //right: $height/60;
-  right: -300px;
+  top:   $height/60;
+  left: $height/2;
+  //right: -300px;
 
   //background-color: red;
 
 }
 .mobile-deposit-take-picture .flash{
   right:  $height/60;
-  bottom: $height/60;
+  top: $height/60;
 
   font-size: $width/27;
 }
