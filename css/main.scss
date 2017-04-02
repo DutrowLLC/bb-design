@@ -21,7 +21,9 @@ $brand-primary-color:         #a71119;
 $brand-medium-accent:         #7c1119;
 $brand-dark-accent:           #4c1013;
 $brand-almost-black-accent:   #210506;
-$light-text-color: #ececec;
+$light-text-color:            #9b9b9b;
+
+$green-good:                  #008a24;
 
 $accent-text-size-small: $width/31;
 
@@ -32,6 +34,10 @@ $top-body-spacer: $height/19.5;
 $main-option-font-size: $width/22;
 $secondary-option-font-font-size: $main-option-font-size * .8;
 $secondary-option-color: #4b4b4b;
+
+$check-option-height: $height/10;
+$configure-transfer-or-payment-options-height: $check-option-height;
+$option-font-size: $width/22;
 
 div{
   box-sizing: border-box;

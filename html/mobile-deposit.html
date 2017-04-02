@@ -1,5 +1,5 @@
 
-<div class="iphone configure-transfer-or-payment sub-page">
+<div class="iphone configure-transfer-or-payment mobile-deposit sub-page">
   <!--<span style="color: transparent;">s</span>&lt;!&ndash; <- Fiexes weird html anoomoly &ndash;&gt;-->
   <!-- STATUS BAR -->
   <div class="status-bar">
@@ -31,7 +31,7 @@
     <span class="left back-button" style="">
       <i class="fa fa-chevron-left" aria-hidden="true"></i>
     </span>
-    <span class="middle">Transfers and Payments</span>
+    <span class="middle">Mobile Deposit</span>
     <span class="right" style="">
       <!-- YOU CAN PUT A BUTTON HERE -->
     </span>
@@ -44,7 +44,10 @@
     <!-- HEADING -->
     <div class="heading-container">
       <div class="heading-block">
-        <div class="account description">
+        <div class="mobile-heading">
+          Mobile Check Deposit Limit
+        </div>
+        <div class="account-description">
           StarChecking 0469
         </div>
         <div class="deposit-available">
@@ -72,13 +75,12 @@
           </div>
           <div v-middle class="select-section selected" style="display: none;">
             <div class="account-description">
-              PERSONAL SAV... 0463
+              StarChecking 0469
             </div>
             <div class="amount-available">
-              $&nbsp;28.94 available
+              Available deposit remaining: <span class="amount">$500.00</span>
             </div>
           </div>
-
 
           <div v-middle class="button">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -122,20 +124,26 @@
           <i v-middle class="fa fa-check-square" aria-hidden="true"></i>
         </div>
 
-        <div class="separator" style="border-width:0px;">
-          <div v-middle class="label">
+        <div class="separator">
+          <div v-middle class="label-check">
             Front of Check
           </div>
 
           <!-- SELECTION -->
-          <div v-middle class="select-section un-selected">
-            <div class="check-image-box">
-              IMAGE
+          <div v-middle class="select-section-check un-selected">
+            <div v-middle class="check-image-box">
+              <div v-middle3>IMAGE</div>
             </div>
           </div>
-          <div v-middle class="select-section selected" style="display: none;">
+          <!--<div v-middle class="select-section-check selected" style="display: none;">-->
+            <!--<div v-middle class="check-image-box">-->
+              <!--PIC-->
+            <!--</div>-->
+          <!--</div>-->
+          <div v-middle class="select-section-check selected" style="display: none;">
+            <div v-middle class="check-image-box-image" style="background-image: url('./assets/check-tmb.jpg');background-size: cover;">
 
-
+            </div>
           </div>
           <!-- END SELECTION -->
           <div v-middle class="button">
@@ -145,11 +153,45 @@
       </div>
       <!-- END FRONT OF CHECK -->
 
+      <!-- BACK OF CHECK  -->
+      <div class="option">
+        <div class="indicator undone-indicator">
+          <i v-middle class="fa fa-square-o" aria-hidden="true"></i>
+        </div>
+        <div class="indicator done-indicator" style="display: none;">
+          <i v-middle class="fa fa-check-square" aria-hidden="true"></i>
+        </div>
+
+        <div class="separator" style="border-width:0px;">
+          <div v-middle style="display: inline-block;" class="label-check">
+            Back of Check
+          </div>
+
+          <!-- SELECTION -->
+          <div v-middle class="select-section-check un-selected" >
+            <div v-middle class="check-image-box" >
+              <div v-middle3>IMAGE</div>
+            </div>
+          </div>
+
+          <div v-middle class="select-section-check selected" style="display: none;">
+            <div v-middle class="check-image-box-image" style="background-image: url('./assets/check-tmb.jpg');background-size: cover;">
+
+            </div>
+          </div>
+          <!-- END SELECTION -->
+          <div v-middle class="button">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <!-- END BACK OF CHECK -->
+
     </div>
 
-    <div class="confirm-button-section">
+    <div class="md-confirm-button-section">
       <div class="confirm-button confirm-button-disabled">
-        Confirm
+        Deposit
         <i class="fa fa-caret-right" aria-hidden="true"></i>
       </div>
     </div>

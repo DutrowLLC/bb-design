@@ -13,7 +13,7 @@
   width:    $width;
 
   font-family: san-francisco-display;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .configure-transfer-or-payment .body .heading-tip{
@@ -34,14 +34,10 @@
   background-color: $brand-primary-color;
 }
 
-.configure-transfer-or-payment .body .configuration-container{
+.configure-transfer-or-payment .body .configuration-container {
   background-color: white;
 
-
 }
-
-$configure-transfer-or-payment-options-height: $height/10;
-$option-font-size: $width/22;
 
 .configure-transfer-or-payment .body .configuration-container .option{
   height: $configure-transfer-or-payment-options-height;
@@ -86,11 +82,14 @@ $option-font-size: $width/22;
 .configure-transfer-or-payment .body .configuration-container .option .select-section .account-description{
   font-size: $option-font-size * 0.9;
   font-family: san-francisco-text;
+  font-weight: 400;
 }
 .configure-transfer-or-payment .body .configuration-container .option .select-section .amount-available{
   font-family: san-francisco-text;
   margin-top: $option-font-size *.4;
   font-size: $option-font-size * 0.7;
+  font-weight: 500;
+  color: #565656;
 }
 
 .configure-transfer-or-payment .body .configuration-container .option .button{

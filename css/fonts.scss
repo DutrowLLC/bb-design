@@ -1,6 +1,24 @@
 
 @import "main.scss";
 
+
+
+
+// TEXT
+// LIGHT
+@font-face {
+  font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-Light.otf");
+  font-weight: 300;
+  font-style:  normal;
+}
+@font-face {
+  font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-LightItalic.otf");
+  font-weight: 300;
+  font-style:  italic;
+}
+// TEXT NORMAL
 @font-face {
   font-family: san-francisco-text;
   src:         url("../fonts/SF/SFText-Regular.otf");
@@ -9,31 +27,125 @@
 }
 @font-face {
   font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-RegularItalic.otf");
+  font-weight: normal;
+  font-style:  italic;
+}
+// MEDIUM
+@font-face {
+  font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-Medium.otf");
+  font-weight: 500;
+  font-style:  normal;
+}
+@font-face {
+  font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-MediumItalic.otf");
+  font-weight: 500;
+  font-style:  italic;
+}
+// TEXT SEMI BOLD
+@font-face {
+  font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-Semibold.otf");
+  font-weight: 600;
+  font-style:  normal;
+}
+@font-face {
+  font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-SemiboldItalic.otf");
+  font-weight: 600;
+  font-style:  italic;
+}
+// TEXT BOLD
+@font-face {
+  font-family: san-francisco-text;
   src:         url("../fonts/SF/SFText-Bold.otf");
   font-weight: bold;
   font-style:  normal;
 }
+@font-face {
+  font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-BoldItalic.otf");
+  font-weight: bold;
+  font-style:  italic;
+}
+// TEXT HEAVY
+@font-face {
+  font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-Heavy.otf");
+  font-weight: 900;
+  font-style:  normal;
+}
+@font-face {
+  font-family: san-francisco-text;
+  src:         url("../fonts/SF/SFText-HeavyItalic.otf");
+  font-weight: 900;
+  font-style:  italic;
+}
+
+//////////////////
+// DISPLAY
+// THIN
+@font-face {
+  font-family: san-francisco-display;
+  src:         url("../fonts/SF/SFDisplay-Thin.otf");
+  font-weight: 100;
+  font-style:  normal;
+}
+// ULTRA LIGHT
+@font-face {
+  font-family: san-francisco-display;
+  src:         url("../fonts/SF/SFDisplay-Ultralight.otf");
+  font-weight: 200;
+  font-style:  normal;
+}
+// LIGHT
+@font-face {
+  font-family: san-francisco-display;
+  src:         url("../fonts/SF/SFDisplay-Light.otf");
+  font-weight: 300;
+  font-style:  normal;
+}
+// NORMAL
 @font-face {
   font-family: san-francisco-display;
   src:         url("../fonts/SF/SFDisplay-Regular.otf");
   font-weight: normal;
   font-style:  normal;
 }
+// MEDIUM
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+// SEMI BOLD
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Semibold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+// BOLD
 @font-face {
   font-family: san-francisco-display;
   src:         url("../fonts/SF/SFDisplay-Bold.otf");
   font-weight: bold;
   font-style:  normal;
 }
+// EXTRA BOLD
 @font-face {
   font-family: san-francisco-display;
-  src:         url("../fonts/SF/SFDisplay-Ultralight.otf");
-  font-weight: 100;
+  src:         url("../fonts/SF/SFDisplay-Heavy.otf");
+  font-weight: 800;
   font-style:  normal;
 }
+// BLACK
 @font-face {
   font-family: san-francisco-display;
-  src:         url("../fonts/SF/SFDisplay-Light.otf");
-  font-weight: 200;
+  src:         url("../fonts/SF/SFDisplay-Black.otf");
+  font-weight: 900;
   font-style:  normal;
 }
