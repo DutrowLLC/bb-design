@@ -1,0 +1,86 @@
+
+@import "main.scss";
+
+.login-touch-id-ask{
+
+}
+
+.info-screen{
+  background-color: $light-background-color;
+
+
+}
+
+$info-footer-height: $height/13;
+.info-screen .info-footer{
+  position: absolute;
+  top:    $height - $info-footer-height;
+  height: $info-footer-height;
+  width:  $width;
+
+  background-color: white;
+
+  color: #0c62ad;
+
+  font-family: san-francisco-text;
+  font-size: $width/26;
+  font-weight: 500;
+  padding-top: $info-footer-height/3;
+}
+
+.info-screen .info-footer .left{
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+.info-screen .info-footer .right{
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+
+}
+
+.info-screen .body{
+  margin-top: $status-bar-height;
+
+  text-align: center;
+
+  color: #353535;
+}
+.info-screen .body .header{
+  font-family: san-francisco-display;
+  font-size: $width/15;
+
+  margin-top:    $height/10;
+  margin-bottom: $height/30;
+
+  font-weight: 300;
+}
+
+.apple-touch-id{
+  width: $width/2.5;
+  height:$width/2.5;
+
+}
+
+
+.info-screen .body .sub-header{
+  margin-top: $height/30;
+
+  font-weight: 500;
+  font-size: $width/25;
+
+  padding-right: $width * 0.2;
+  padding-left: $width * 0.2;
+
+}
+.info-screen .body .info{
+  font-size: $width/27;
+
+  margin-top: $height/25;
+
+  padding-right: $width * 0.1;
+  padding-left: $width * 0.1;
+
+  color: #565656;
+}

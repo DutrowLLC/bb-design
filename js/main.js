@@ -10,7 +10,8 @@ var pages = [
   'select-to-payee',
   'mobile-deposit',
   'mobile-deposit-take-picture',
-  'mobile-deposit-confirm-picture'
+  'mobile-deposit-confirm-picture',
+  'login-touch-id-ask'
 ];
 
 
@@ -21,6 +22,7 @@ $(document).ready(function(){
   $("#configure-transfer-or-payment-filled-in") .load("./html/configure-transfer-or-payment.html");
   $("#mobile-deposit-filled-in")                .load("./html/mobile-deposit.html");
   $("#login-touch-id")                          .load("./html/login.html");
+  $("#login-session-ended")                     .load("./html/login.html");
 
 
   // ADD CSS
@@ -38,6 +40,7 @@ $(document).ready(function(){
           fillInConfigureTransferOrPayment();
           fillInConfigureMobileDeposit();
           fillInLoginTouchId();
+          fillInLoginSessionEnded();
           // VERTICAL ALIGN
           doVerticalAlign();
           doVerticalAlign2();
@@ -174,10 +177,13 @@ var fillInConfigureMobileDeposit = function(){
   elem.find('.select-section-check.selected').show();
 };
 var fillInLoginTouchId = function(){
-  //$("#login-touch-id")                          .load("./html/login.html");
   var div = $('<div></div>');
   div.load('./html/iphone-modal.html');
   $("#login-touch-id").children().append(div);
+};
 
-
+var fillInLoginSessionEnded = function(){
+  var div = $('<div></div>');
+  div.load('./html/iphone-modal-login-session-ended.html');
+  $("#login-session-ended").children().append(div);
 };
