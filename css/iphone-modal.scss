@@ -1,0 +1,88 @@
+
+@import "main.scss";
+
+//$border-radius
+
+.iphone-modal{
+  font-family: san-francisco-text;
+}
+
+
+.iphone-modal .background{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+  height: $height;
+  width:  $width;
+
+  background-color: black;
+  opacity: 0.3;
+
+}
+
+.iphone-modal .dialog{
+  position: absolute;
+
+  top: 37%;
+  left: $width*((1-.72)/2);
+  width:  $width*.72;
+  //height: $height*.27;
+
+  background-color: white;
+
+  //border-radius: 50px;
+  border-radius: 50px;
+}
+
+.iphone-modal .dialog .message-container{
+  //height: $height*.20;
+  text-align: center;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: #d3d3d7;
+}
+.iphone-modal .dialog .message{
+  padding:$width/30;
+
+}
+.iphone-modal .dialog .message .touch-id-icon{
+  display: inline-block;
+
+  mask-image:         url('../assets/fingerprint.svg');
+  -webkit-mask-image: url('../assets/fingerprint.svg');
+  //background: url('../assets/fingerprint.svg');;
+  background-color:   #ff3d32;
+
+  background-size: cover;
+
+  width:  $width/12;
+  height: $width/12;
+
+  margin: $height/40;
+}
+.iphone-modal .dialog .message .message-heading{
+  font-size: $width/22;
+  font-weight: 500;
+  margin: 0 0 $height/100 0;
+
+}
+.iphone-modal .dialog .message .message-sub{
+  font-size: $width/28;
+  margin: 0 0 $height/100 0;
+}
+
+
+.iphone-modal .dialog .buttons-container{
+  height: $height*0.07;
+  text-align: center;
+  font-size: $width/20;
+  font-weight: 500;
+  padding-top: $height * 0.019;
+}
+.iphone-modal .dialog .single-button{
+  color: #007aff;
+
+}
+

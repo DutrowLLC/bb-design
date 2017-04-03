@@ -20,6 +20,7 @@ $(document).ready(function(){
   // ADD MODIFIED ONES
   $("#configure-transfer-or-payment-filled-in") .load("./html/configure-transfer-or-payment.html");
   $("#mobile-deposit-filled-in")                .load("./html/mobile-deposit.html");
+  $("#login-touch-id")                          .load("./html/login.html");
 
 
   // ADD CSS
@@ -36,6 +37,7 @@ $(document).ready(function(){
           // MODIFIERS
           fillInConfigureTransferOrPayment();
           fillInConfigureMobileDeposit();
+          fillInLoginTouchId();
           // VERTICAL ALIGN
           doVerticalAlign();
           doVerticalAlign2();
@@ -141,9 +143,7 @@ var getRotationAngle = function(elem){
   //console.log('Rotate: ' + angle + 'deg');
 
   return angle;
-}
-
-
+};
 
 var fillInConfigureTransferOrPayment = function(){
   var elem = $("#configure-transfer-or-payment-filled-in");
@@ -172,4 +172,12 @@ var fillInConfigureMobileDeposit = function(){
 
   elem.find('.select-section-check.un-selected').hide();
   elem.find('.select-section-check.selected').show();
+};
+var fillInLoginTouchId = function(){
+  //$("#login-touch-id")                          .load("./html/login.html");
+  var div = $('<div></div>');
+  div.load('./html/iphone-modal.html');
+  $("#login-touch-id").children().append(div);
+
+
 };
