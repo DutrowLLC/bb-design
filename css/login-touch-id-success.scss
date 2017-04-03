@@ -1,0 +1,31 @@
+
+@import "main.scss";
+
+.login-touch-id-success{}
+
+.login-touch-id-success .success-message{
+  color: $green-good;
+
+  border-style: solid;
+  border-width: 0 0 5px 0;
+  border-color: #9b9b9b;
+
+  font-size: $width/20;
+
+  margin-top: $width*0.1;
+  margin-left: $width*0.15;
+  margin-right: $width*0.15;
+  margin-bottom: $width*0.1;
+
+  padding-bottom: $width*0.07;
+
+}
+.login-touch-id-success .success-info{
+
+  font-size: $width/25;
+  padding-left: $width/5;
+  padding-right: $width/5;
+
+  color: #565656;
+
+}

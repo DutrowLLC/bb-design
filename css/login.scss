@@ -10,7 +10,7 @@
   width: $width;
 
   position: absolute;
-  top:$status-bar-height;
+  top:$status-bar-height + $height*.03;
 
   border-style: solid;
   border-width: $debug-border-width;

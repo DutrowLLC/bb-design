@@ -11,7 +11,8 @@ var pages = [
   'mobile-deposit',
   'mobile-deposit-take-picture',
   'mobile-deposit-confirm-picture',
-  'login-touch-id-ask'
+  'login-touch-id-ask',
+  'login-touch-id-success'
 ];
 
 
