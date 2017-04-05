@@ -1,0 +1,18 @@
+
+@import "main.scss";
+
+.two-factor-enter-code{
+  font-family: san-francisco-text;
+}
+
+.two-factor-enter-code .code-container{
+  background-color: white;
+}
+.two-factor-enter-code .code-container .code-box{
+  color: #a7a7a7;
+
+  font-size:   $font-size-6;
+  font-weight: 100;
+
+  padding: $width*0.04 $width*0.03 $width*0.04 $width*0.03;
+}

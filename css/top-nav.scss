@@ -24,10 +24,15 @@
 }
 
 //MAIN PAGE
+.top-nav-brand-color,
 .main-page .top-nav{
-  background-color: $brand-dark-accent;
-  color: $light-text-color;
+  //background-color: $brand-dark-accent;
+  background-color: $brand-primary-color;
+
+  //color: $light-text-color;
+  color: white;
 }
+.top-nav > span,
 .main-page .top-nav > span{
   padding-top: $top-nav-height *.3;
   display:        inline-block;
@@ -41,5 +46,6 @@
 // SUB PAGE
 .sub-page .top-nav{
   background-color: white;
-  color: $brand-almost-black-accent;
+  //color: $brand-almost-black-accent;
+  color: $brand-primary-color;
 }

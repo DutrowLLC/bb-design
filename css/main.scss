@@ -1,5 +1,7 @@
 
 
+@import "functions.scss";
+
 $iPhone7-width:  1080;
 $iPhone7-height: 1920;
 
@@ -17,7 +19,8 @@ $light-border-color:          #b7b7b7;
 $footer-background-color:     #f9f9f9;
 $light-background-color:      #e0e0e0;
 
-$brand-primary-color:         #a71119;
+//$brand-primary-color:         #a71119;
+$brand-primary-color:         #b20008;
 $brand-medium-accent:         #7c1119;
 $brand-dark-accent:           #4c1013;
 $brand-almost-black-accent:   #210506;
@@ -39,13 +42,29 @@ $check-option-height: $height/10;
 $configure-transfer-or-payment-options-height: $check-option-height;
 $option-font-size: $width/22;
 
+
+$golden-ratio: 1.61803398875;
+$font-ratio: 0.85;
+
+$start-font: $width/10;
+$font-size-1:  $start-font;
+$font-size-2:  $start-font * $font-ratio;
+$font-size-3:  $start-font * pow($font-ratio, 2);
+$font-size-4:  $start-font * pow($font-ratio, 3);
+$font-size-5:  $start-font * pow($font-ratio, 4);
+$font-size-6:  $start-font * pow($font-ratio, 5);
+$font-size-7:  $start-font * pow($font-ratio, 6);
+$font-size-8:  $start-font * pow($font-ratio, 7);
+$font-size-9:  $start-font * pow($font-ratio, 8);
+$font-size-10: $start-font * pow($font-ratio, 9);
+$font-size-11: $start-font * pow($font-ratio, 10);
+
 div{
   box-sizing: border-box;
 
 }
 a{
   text-decoration: none;
-
 }
 
 
@@ -84,104 +103,10 @@ a{
   font-family: san-francisco-text;
 }
 
-.status-bar{
-  position: absolute;
-  top: 0;
-  width: $width;
-  height: $status-bar-height;
-  z-index: 100;
-
-  background-color: transparent;
-
-  padding:5px;
-
-  text-align: center;
-  align-content: center;
-}
-.status-bar > div{
-  width: 32%;
-}
-.status-bar > div:nth-child(1n){
-  //background-color: red;
-  float: left;
-  display: inline-block;
-  padding-left:10px;
-}
-.status-bar > div:nth-child(2n){
-  //background-color: blue;
-  display: inline-block;
-  text-align: center;
-  align-content: center;
-
-}
-.status-bar > div:nth-child(3n){
-  float: right;
-  display: inline-block;
-  text-align: right;
-  padding-right:20px;
-  margin-left:-20px;
-
-}
-
-$footer-height: $height/15;
-.footer{
-  position: absolute;
 
 
-  top:    $height - $footer-height;
-  height: $footer-height;
 
-  //background-color: red;
 
-  border-style: solid;
-  border-width: 5px 0px 0px 0px;
-}
-
-.login .footer > div{
-  width: $width/3.3;
-  font-size: $width/27;
-}
-
-.page-type1        .status-bar,
-.account-detail    .status-bar,
-.accounts-overview .status-bar{
-  color: $light-text-color;
-}
-
-.login .footer{
-  width: $width - $login-padding*2;
-  left:   $login-padding;
-  opacity: .5;
-  border-color: $login-text-color;
-  padding-top:$width/50;
-}
-
-.page-type1        .footer,
-.account-detail    .footer,
-.accounts-overview .footer{
-  opacity: 1;
-  width: $width;
-  left: 0px;
-
-  border-color: #b0b0b0;
-  background-color: $footer-background-color;
-
-  display: flex;
-
-  padding-top: 0;
-}
-
-.page-type1        .footer > div,
-.account-detail    .footer > div,
-.accounts-overview .footer > div{
-  text-align: center;
-  font-size: $footer-height / 4.5;
-  padding-top: $footer-height / 15;
-  margin-top: 0;
-
-  color: #888888;
-  //padding-bottom: $footer-height / 50;
-}
 
 
 

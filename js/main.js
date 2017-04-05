@@ -3,6 +3,7 @@ var pages = [
   'login',
   'accounts-overview',
   'account-detail',
+  'transaction-details',
   'move-money',
   'configure-transfer-or-payment',
   'select-from-account',
@@ -12,7 +13,13 @@ var pages = [
   'mobile-deposit-take-picture',
   'mobile-deposit-confirm-picture',
   'login-touch-id-ask',
-  'login-touch-id-success'
+  'login-touch-id-success',
+  'two-factor-get-code',
+  'two-factor-enter-code',
+  'settings-page',
+
+
+  'font-demo'
 ];
 
 
@@ -47,6 +54,8 @@ $(document).ready(function(){
           doVerticalAlign2();
           doVerticalAlign3();
           doJqCenter();
+          // Activate font demo
+          activateFontDemo();
           }, 200);
       }
     })(i));

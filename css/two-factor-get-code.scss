@@ -1,0 +1,65 @@
+
+@import "main.scss";
+
+.two-factor-get-code{
+  background-color: $light-background-color;
+}
+
+.two-factor-get-code .body{
+  position: absolute;
+  top:      $top-nav-total-height;
+  left:     0;
+  width:    $width;
+}
+
+.two-factor-get-code .body .header{
+  font-size: $font-size-5;
+  text-align: center;
+
+  margin: $height*0.07 0 $height*0.07 0;
+
+}
+.two-factor-get-code .body .options-container{
+  background-color: white;
+}
+.two-factor-get-code .body .options-container .option{
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: $light-background-color;
+
+  font-size: $font-size-7;
+
+  padding: $width*0.02 $width*0.12 $width*0.02 $width*0.12;
+
+}
+
+.two-factor-get-code .body .options-container .option .description{
+  text-align: left;
+  display: inline-block;
+
+  width: 90%;
+
+  vertical-align: middle;
+}
+
+
+.two-factor-get-code .body .options-container .option .arrow{
+  //float: right;
+  display: inline-block;
+  text-align: right;
+  width: 7%;
+
+
+
+  font-size: $font-size-4;
+
+  vertical-align: top;
+
+  margin: -$height*0.005 0 0px 0;
+
+  color: #9c9c9c;
+
+}
+.two-factor-get-code .body .options-container .option .arrow > i{
+
+}

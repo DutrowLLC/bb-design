@@ -1,0 +1,17 @@
+
+@import "main.scss";
+
+.settings-page{
+  background-color: $footer-background-color;
+}
+
+.settings-page .options-list-1{
+  margin-top: $height/12;
+}
+
+.settings-page .body{
+  position: absolute;
+  top: $top-nav-total-height;
+  left: 0;
+  width: $width;
+}

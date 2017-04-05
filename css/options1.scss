@@ -1,0 +1,42 @@
+
+@import "main.scss";
+
+//.options-container-1{
+//  position: absolute;
+//  top: $top-nav-total-height;
+//  left: 0;
+//  width: $width;
+//  //margin-top: $top-nav-total-height;
+//
+//  font-family: san-francisco-display;
+//  font-weight: 300;
+//}
+
+.options-list-1{
+  background-color: white;
+}
+
+.options-list-1 .option{
+  padding: $width/30;
+
+  border-style: solid;
+  border-color: $footer-background-color;
+  border-width: 3px;
+
+  font-size: $width/27;
+}
+.options-list-1 .option .description{
+  display: inline-block;
+  width: 89%;
+
+  //background-color: aqua;
+}
+.options-list-1 .option .button{
+  display: inline-block;
+  width: 9%;
+  text-align: right;
+
+  color: $login-text-color;
+
+  //background-color: #7c1119;
+}

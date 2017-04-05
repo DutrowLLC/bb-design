@@ -1,0 +1,58 @@
+
+@import "main.scss";
+
+$footer-height: $height/15;
+.footer{
+  position: absolute;
+
+
+  top:    $height - $footer-height;
+  height: $footer-height;
+
+  //background-color: red;
+
+  border-style: solid;
+  border-width: 5px 0px 0px 0px;
+}
+
+.login .footer > div{
+  width: $width/3.3;
+  font-size: $width/27;
+}
+
+.login .footer{
+  width: $width - $login-padding*2;
+  left:   $login-padding;
+  opacity: .5;
+  border-color: $login-text-color;
+  padding-top:$width/50;
+}
+
+.page-type1        .footer,
+.account-detail    .footer,
+.accounts-overview .footer{
+  opacity: 1;
+  width: $width;
+  left: 0px;
+
+  border-color: #b0b0b0;
+  background-color: $footer-background-color;
+
+  display: flex;
+
+  padding-top: 0;
+}
+
+.page-type1        .footer > div,
+.account-detail    .footer > div,
+.accounts-overview .footer > div{
+  text-align: center;
+  font-size: $footer-height / 4.5;
+  padding-top: $footer-height / 15;
+  margin-top: 0;
+
+  color: #888888;
+  //padding-bottom: $footer-height / 50;
+
+  width: 24.5%;
+}

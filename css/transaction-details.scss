@@ -1,0 +1,91 @@
+@import "main.scss";
+
+.transaction-details{
+  background-color: $light-background-color;
+}
+
+.transaction-details .body{
+  position: absolute;
+  top: $top-nav-total-height;
+  left: 0;
+  width: $width;
+
+  text-align: center;
+}
+
+
+.transaction-details .body .header{
+  margin: $width * 0.10
+
+
+}
+.transaction-details .body .header .description{
+  font-size: $font-size-6
+}
+$td-details-body-margin: $width * 0.07;
+.transaction-details .body .details-body{
+  margin-right:$td-details-body-margin;
+  margin-left:$td-details-body-margin;
+
+  background-color: white;
+
+  padding: $td-details-body-margin;
+
+
+
+}
+
+.transaction-details .body .details-body .amount-block{
+  border-style: solid;
+  border-color: #a9a9a9;
+  border-width: 0 0 3px 0;
+
+  padding: 0 0 $td-details-body-margin 0;
+
+  text-align: left;
+}
+.transaction-details .body .details-body .amount-block .label{
+  font-size: $font-size-7;
+  font-family: san-francisco-text;
+  font-weight: 500;
+  padding: $width * 0.03;
+}
+
+$td-amount-font-size: $font-size-3;
+.transaction-details .body .details-body .amount-block .amount{
+  font-family: san-francisco-display;
+  font-size: $td-amount-font-size;
+  font-weight: 200;
+
+  vertical-align: top;
+}
+
+.transaction-details .body .details-body .amount-block .amount .symbol{
+  font-size: $td-amount-font-size* 0.55;
+  vertical-align: top;
+}
+.transaction-details .body .details-body .amount-block .amount .dollars{}
+.transaction-details .body .details-body .amount-block .amount .cents{
+  font-size: $td-amount-font-size* 0.55;
+  vertical-align: top;
+}
+.transaction-details .body .details-body .date-block{
+  font-size: $font-size-6;
+  font-family: san-francisco-display;
+  padding-top:    $width * 0.02;
+
+}
+.transaction-details .body .details-body .date-block .label{
+  display: inline-block;
+  width: 47%;
+  text-align: left;
+  font-weight: 600;
+}
+.transaction-details .body .details-body .date-block .date{
+  display: inline-block;
+  width: 47%;
+  text-align: right;
+  font-weight: 500;
+
+  color: #6f6f6f;
+}
