@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e239c989-0bba-4b12-ae5b-c1ada30a7b40" name="bb-design" url="http://ftp.pawsonmd.com">
+        <fileTransfer host="ftp.pawsonmd.com" port="21" rootFolder="/public_html/bbdesign">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

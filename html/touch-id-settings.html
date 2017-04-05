@@ -1,4 +1,6 @@
-<div class="iphone info-screen">
+
+<div class="iphone page-type1 main-page touch-id-settings">
+  <!--<span style="color: transparent;">s</span>&lt;!&ndash; <- Fiexes weird html anoomoly &ndash;&gt;-->
   <!-- STATUS BAR -->
   <div class="status-bar">
     <div style="">
@@ -24,13 +26,21 @@
     </div>
   </div>
 
+  <!-- TOP NAV -->
+  <div class="top-nav">
+    <span class="left back-button" style="">
+      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+    </span>
+    <span class="middle">Touch ID <i class="fa fa-registered" aria-hidden="true"></i></span>
+    <span class="right" style="">
+      <!-- YOU CAN PUT A BUTTON HERE -->
+    </span>
+  </div>
+
   <!-- BODY -->
-  <div class="body">
-    <div class="header">
-      Touch ID<i class="fa fa-registered" aria-hidden="true"></i>
-    </div>
+  <div class="body body1">
+
     <!-- TOUCH ID ICON -->
-    <!--width="500px" height="500px"-->
     <svg class="apple-touch-id"  viewBox="100 0 600 500"   version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
       <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
       <title>TouchID</title>
@@ -48,40 +58,73 @@
       </g>
     </svg>
 
-
-    <!-- SUB HEADER -->
-    <div class="sub-header">
-      <div>Great news!</div>
-      <div>
-        Broadway Bank Mobile<i class="fa fa-registered" aria-hidden="true"></i> App now supports Touch ID<i class="fa fa-registered" aria-hidden="true"></i>
-      </div>
+    <!-- HEADER -->
+    <div class="header">
+      Broadway Bank Mobile App supports Touch ID<i class="fa fa-registered" aria-hidden="true"></i>
     </div>
-    <!-- INFO -->
+    <!-- END HEADER -->
+    <!-- INFO TEXT -->
     <div class="info">
       <p>
-        You can choose to sign on to the Broadway Bank Mobile<i class="fa fa-registered" aria-hidden="true"></i> App using your fingerprint.
-        Remember, once it's enabled anyone with a fingerprint stored on your device will havwe access to your account.
-        You can turn this feature off in your app Settings.
+        You can choose to sign on using your fingerprint. Once it's enabled, anyone with a fingerprint stored on your device will have access to your account.
+      </p><p>
+        You can disable this feature at any time.
       </p>
-      <p>
-        For more info, take a look at the <br><a href="https://support.apple.com/en-us/HT204587">Apple Terms of Use.</a>
-      </p>
-
     </div>
+    <!-- OPTION BUTTON-->
+    <div class="option">
+      <div class="description">
+        Enable Touch ID<i class="fa fa-registered" aria-hidden="true"></i>
+      </div>
+      <div class="toggle-switch-container">
+        <div class="toggle-switch">
+          <div class="switch-back"></div>
+          <div class="switch-front"></div>
+        </div>
+      </div>
+    </div>
+    <!-- END OPTION BUTTON -->
+
+
   </div>
-
-
   <!-- END BODY -->
 
+
+
+
   <!-- FOOTER -->
-  <div class="info-footer">
-    <div class="left">
-      No Thanks
+  <div class="footer">
+    <div>
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-bars fa-stack-1x" aria-hidden="true"></i>
+      </span>
+      <div class="label">Accounts</div>
     </div>
-    <div class="right">
-      Enable
+
+    <div>
+      <span class="fa-stack fa-lg">
+        <!--<i class="fa fa-arrow-right fa-stack-3x" style="margin-left:35px;color: red;" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>-->
+        <!--<i class="fa fa-usd fa-stack-1x" aria-hidden="true"></i>-->
+        <i class="fa fa-share fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-usd fa-stack-1x" style="margin-left:0;font-size: 12px;margin-top: 20px;" aria-hidden="true"></i>
+      </span>
+      <div class="label">Move Money</div>
+    </div>
+
+    <div>
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-ellipsis-h fa-stack-1x" aria-hidden="true"></i>
+      </span>
+      <div class="label">Services</div>
+    </div>
+
+    <div>
+      <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
+      <div class="label">Settings</div>
     </div>
 
   </div>
-  <!-- END FOOTER -->
 </div>

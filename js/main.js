@@ -18,6 +18,8 @@ var pages = [
   'two-factor-enter-code',
   'settings-page',
   'touch-id-settings',
+  'services-page',
+  'atm-branch-locator',
 
 
   'font-demo'

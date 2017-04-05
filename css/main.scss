@@ -30,7 +30,7 @@ $green-good:                  #008a24;
 
 $accent-text-size-small: $width/31;
 
-$footer-tab-highlight-color: $brand-medium-accent;
+$footer-tab-highlight-color: $brand-primary-color;
 
 $top-body-spacer: $height/19.5;
 
@@ -102,6 +102,19 @@ a{
 
   font-family: san-francisco-text;
 }
+
+.body1{
+  position: absolute;
+  top:      $top-nav-total-height;
+  width:    $width;
+
+}
+
+
+
+
+
+
 
 
 

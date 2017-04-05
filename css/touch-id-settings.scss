@@ -1,6 +1,110 @@
 
 @import "main.scss";
 
+$tis-horizontal-padding: $width*0.06;
+
 .touch-id-settings{
+  background-color: $light-background-color;
+
+  text-align: center;
+
+  font-family: san-francisco-display;
+}
+
+.touch-id-settings .footer > div:nth-child(4){
+  color: $footer-tab-highlight-color;
+}
+
+.touch-id-settings .apple-touch-id{
+  margin-top: $height * 0.06;
 
 }
+
+.touch-id-settings .body .header{
+  font-size: $font-size-6;
+
+  padding-left: $tis-horizontal-padding*2;
+  padding-right: $tis-horizontal-padding*2;
+
+  font-family: san-francisco-display;
+
+}
+.touch-id-settings .body .info{
+  padding-left: $tis-horizontal-padding;
+  padding-right: $tis-horizontal-padding;
+
+  font-size: $font-size-6;
+  font-weight: 300;
+
+  color: #4d4d4d;
+
+  font-family: san-francisco-text;
+
+  margin-bottom: $height*0.07;
+}
+.touch-id-settings .body .option{
+  background-color: white;
+
+  padding: $height*0.03 $width*0.05;
+
+}
+.touch-id-settings .body .description{
+  display: inline-block;
+  width:69%;
+  text-align: left;
+
+  font-size: $font-size-6;
+
+  font-weight: 300;
+}
+.touch-id-settings .body .toggle-switch-container{
+  display: inline-block;
+  width:29%;
+
+  background-color: lightblue;
+
+  text-align: right;
+}
+
+
+
+$toggle-switch-height: $width * 0.07;
+.toggle-switch{
+  position: relative;
+
+  //background-color: #8f8f8f;
+
+  height: $toggle-switch-height;
+
+  margin: -.8*$toggle-switch-height 0;
+
+}
+.toggle-switch .switch-back{
+  position: absolute;
+  top:0;
+  right:0;
+
+  background-color: $brand-primary-color;
+  border-radius:    50px;
+
+  height: $toggle-switch-height;
+  width:  $width * 0.12;
+}
+$toggle-switch-switch-margin-ratio: 0.1;
+.toggle-switch .switch-front{
+  position: absolute;
+  top:$toggle-switch-height*($toggle-switch-switch-margin-ratio/2);
+  right:$toggle-switch-height*($toggle-switch-switch-margin-ratio/2);
+
+  background-color: white;
+  height: $toggle-switch-height*(1-$toggle-switch-switch-margin-ratio);
+  width:  $toggle-switch-height*(1-$toggle-switch-switch-margin-ratio);
+
+
+  border-radius: 50px;
+
+  box-shadow: 2px 2px 5px #6b6b6b;
+}
+
+
+

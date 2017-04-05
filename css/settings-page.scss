@@ -15,3 +15,7 @@
   left: 0;
   width: $width;
 }
+
+.settings-page .footer > div:nth-child(4){
+  color: $footer-tab-highlight-color;
+}

@@ -1,0 +1,15 @@
+
+@import "main.scss";
+
+.services-page{
+  background-color: $footer-background-color;
+}
+
+
+.services-page .options-list-1{
+  margin-top: $height/12;
+}
+
+.services-page .footer > div:nth-child(3){
+  color: $footer-tab-highlight-color;
+}
