@@ -11,37 +11,6 @@
 
 }
 
-$info-footer-height: $height/13;
-.info-screen .info-footer{
-  position: absolute;
-  top:    $height - $info-footer-height;
-  height: $info-footer-height;
-  width:  $width;
-
-  background-color: white;
-
-  color: #0c62ad;
-
-  font-family: san-francisco-text;
-  font-size: $width/26;
-  font-weight: 500;
-  padding-top: $info-footer-height/3;
-
-  text-align: center;
-}
-
-.info-screen .info-footer .left{
-  display: inline-block;
-  width: 49%;
-  text-align: center;
-}
-.info-screen .info-footer .right{
-  display: inline-block;
-  width: 49%;
-  text-align: center;
-
-}
-
 .info-screen .body{
   margin-top: $status-bar-height;
 

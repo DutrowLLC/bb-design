@@ -1,5 +1,8 @@
 
+
 @import "main.scss";
+
+$nav-bar-color: $brand-primary-color;
 
 .top-nav{
   position:         absolute;
@@ -27,11 +30,13 @@
 .top-nav-brand-color,
 .main-page .top-nav{
   //background-color: $brand-dark-accent;
-  background-color: $brand-primary-color;
+  background-color: $nav-bar-color;
 
   //color: $light-text-color;
   color: white;
 }
+
+
 .top-nav > span,
 .main-page .top-nav > span{
   padding-top: $top-nav-height *.3;
