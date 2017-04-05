@@ -20,7 +20,7 @@ var pages = [
   'touch-id-settings',
   'services-page',
   'atm-branch-locator',
-
+  'atm-branch-locator-filter',
 
   'font-demo'
 ];
@@ -34,6 +34,8 @@ $(document).ready(function(){
   $("#mobile-deposit-filled-in")                .load("./html/mobile-deposit.html");
   $("#login-touch-id")                          .load("./html/login.html");
   $("#login-session-ended")                     .load("./html/login.html");
+  $("#atm-branch-locator-list-view")            .load("./html/atm-branch-locator.html");
+  $('#atm-branch-locator-filter')               .load("./html/atm-branch-locator.html");
 
 
   // ADD CSS
@@ -52,6 +54,8 @@ $(document).ready(function(){
           fillInConfigureMobileDeposit();
           fillInLoginTouchId();
           fillInLoginSessionEnded();
+          fillInAtmBranchLocatorListView();
+          fillInAtmBranchLocatorFilter();
           // VERTICAL ALIGN
           doVerticalAlign();
           doVerticalAlign2();
@@ -199,4 +203,16 @@ var fillInLoginSessionEnded = function(){
   var div = $('<div></div>');
   div.load('./html/iphone-modal-login-session-ended.html');
   $("#login-session-ended").children().append(div);
+};
+
+var fillInAtmBranchLocatorListView = function(){
+  var elem = $('#atm-branch-locator-list-view');
+  elem.find('.list-view').show();
+  elem.find('.middle-of-3').text('Map Results');
+};
+
+var fillInAtmBranchLocatorFilter = function(){
+  var elem = $('#atm-branch-locator-filter');
+  elem.find('.background1').show();
+  elem.find('.filter-results').show();
 };

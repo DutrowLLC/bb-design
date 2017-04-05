@@ -1,6 +1,8 @@
 
 @import "main.scss";
 @import "top-nav.scss";
+@import "footer.scss";
+
 
 .atm-branch-locator{
   background-image: url('../assets/austin-map.png');
@@ -71,3 +73,125 @@
 .atm-branch-locator .body .point:nth-child(9){ top: $height*0.81; left: $width*0.57; }
 .atm-branch-locator .body .point:nth-child(10){ top: $height*0.23; left: $width*0.38; }
 .atm-branch-locator .body .point:nth-child(11){ top: $height*0.36; left: $width*0.32; }
+
+
+.atm-branch-locator .list-view{
+  position: absolute;
+  top: $height/2;
+  width:   $width;
+  height:  $height - ($height/2) - $action-bar-height;
+
+  background-color: white;
+
+}
+
+$abl-option-margin: $width*0.05;
+.atm-branch-locator .list-view .option{
+  padding: $height*0.021 0;
+  margin:  0 $abl-option-margin;
+
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: #a7a7a7;
+}
+.atm-branch-locator .list-view .option .left{
+  display: inline-block;
+  width: 10%;
+  vertical-align: top;
+
+  color: $brand-primary-color;
+
+  font-size: $font-size-6;
+}
+.atm-branch-locator .list-view .option .middle{
+  display: inline-block;
+  width: 65%;
+  vertical-align: top;
+
+  font-size: $font-size-8;
+
+
+}
+.atm-branch-locator .list-view .option .location-name{
+  font-weight: 600;
+}
+.atm-branch-locator .list-view .option .location-details{
+  font-weight: 400;
+}
+.atm-branch-locator .list-view .option .right{
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  text-align: right;
+
+  font-size: $font-size-8;
+
+  font-weight: 600;
+}
+
+
+.atm-branch-locator .action-bar{
+  border-style: solid;
+  border-width: 3px 0 0 0;
+  border-color: #a8a8a8;
+  background-color: #f1f1f1;
+}
+
+.atm-branch-locator .filter-results{
+  position: absolute;
+  bottom:   $action-bar-height;
+  width: $width;
+
+  color: blue;
+
+  text-align: center;
+
+  font-size: $font-size-5;
+}
+
+$options-border-radius: 30px;
+$option-padding: $height*0.025;
+$options-horizontal-margin: $width*0.03;
+
+.atm-branch-locator .filter-results .options{
+  background-color: white;
+
+  border-radius: $options-border-radius;
+
+  margin: 0 $options-horizontal-margin;
+
+  font-weight: 300;
+
+  margin-bottom: $height*0.01;
+}
+.atm-branch-locator .filter-results .options .top-option{
+  padding: $option-padding;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: #d9d9d9;
+}
+.atm-branch-locator .filter-results .options .bottom-option{
+  padding: $option-padding;
+}
+.atm-branch-locator .filter-results .cancel-button{
+  background-color: white;
+
+  border-radius: $options-border-radius;
+
+  font-weight: 500;
+
+  padding: $option-padding;
+
+  margin: 0 $options-horizontal-margin;
+
+  margin-bottom: $height*0.01;
+}
+
+
+
+
+
+
+
+
+
