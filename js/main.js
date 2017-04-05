@@ -17,6 +17,7 @@ var pages = [
   'two-factor-get-code',
   'two-factor-enter-code',
   'settings-page',
+  'touch-id-settings',
 
 
   'font-demo'
