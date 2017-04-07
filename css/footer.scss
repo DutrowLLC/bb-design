@@ -2,12 +2,12 @@
 @import "main.scss";
 
 $footer-height: $height/15;
+$action-bar-height: $height/13;
+
 .footer{
   position: absolute;
-
-
-  top:    $height - $footer-height;
-  height: $footer-height;
+  bottom: 0;
+  height: $action-bar-height;
 
   //background-color: red;
 
@@ -48,7 +48,8 @@ $footer-height: $height/15;
 .accounts-overview .footer > div{
   text-align: center;
   font-size: $footer-height / 4.5;
-  padding-top: $footer-height / 15;
+  //padding-top: $footer-height / 15;
+  padding-top: $action-bar-height * .125;
   margin-top: 0;
 
   color: #888888;
@@ -57,10 +58,10 @@ $footer-height: $height/15;
   width: 24.5%;
 }
 
-$action-bar-height: $height/13;
 .action-bar{
   position: absolute;
-  top:    $height - $action-bar-height;
+  //top:    $height - $action-bar-height;
+  bottom: 0;
   height: $action-bar-height;
   width:  $width;
 

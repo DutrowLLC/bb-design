@@ -132,9 +132,9 @@
   border-radius: 20px 0 20px 21px;
 }
 
-.configure-transfer-or-payment .body .confirm-button-enabled{
+.configure-transfer-or-payment .confirm-button-enabled{
   color: $brand-primary-color;
 }
-.configure-transfer-or-payment .body .confirm-button-disabled{
-  color: #6a6a6a;
+.configure-transfer-or-payment .confirm-button-disabled{
+  color: #6a6a6a !important;
 }

@@ -170,7 +170,7 @@ var fillInConfigureTransferOrPayment = function(){
   elem.find('.undone-indicator').hide();
   elem.find('.done-indicator')  .show();
 
-  elem.find('.confirm-button').removeClass('confirm-button-disabled').addClass('confirm-button-enabled');
+  elem.find('.confirm-button-disabled').removeClass('confirm-button-disabled').addClass('confirm-button-enabled');
 
   elem.find('.heading-tip').removeClass('heading-tip-working').addClass('heading-tip-ready');
 
@@ -183,7 +183,7 @@ var fillInConfigureMobileDeposit = function(){
   elem.find('.undone-indicator').hide();
   elem.find('.done-indicator')  .show();
 
-  elem.find('.confirm-button').removeClass('confirm-button-disabled').addClass('confirm-button-enabled');
+  elem.find('.confirm-button-disabled').removeClass('confirm-button-disabled').addClass('confirm-button-enabled');
 
   elem.find('.heading-tip').removeClass('heading-tip-working').addClass('heading-tip-ready');
 
