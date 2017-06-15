@@ -1,0 +1,106 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.account-detail .footer > div:nth-child(1) {
+  color: #b20008; }
+
+.account-detail .account-overview {
+  margin-top: 154.97006px; }
+
+.account-detail .account-overview .balance {
+  margin-top: 274.28571;
+  font-size: 216;
+  font-family: san-francisco-display;
+  font-weight: 100;
+  vertical-align: top;
+  text-align: center; }
+
+.account-detail .account-overview .balance .dollar {
+  font-size: 108;
+  font-family: san-francisco-display;
+  font-weight: 100;
+  vertical-align: top; }
+
+.account-detail .account-overview .balance .cents {
+  font-size: 108;
+  font-family: san-francisco-display;
+  font-weight: 100;
+  vertical-align: top; }
+
+.account-detail .account-overview .available-now {
+  text-align: center;
+  font-size: 34.83871;
+  font-weight: bold; }
+
+.account-detail .transactions {
+  margin-top: 72; }
+
+.account-detail .transactions > div {
+  border-style: solid;
+  border-color: #8f8f8f;
+  border-width: 3px 0 0 0;
+  padding: 27 0 27 0;
+  width: 1026;
+  margin-right: auto;
+  margin-left: auto; }
+
+.account-detail .transactions > div .transaction-left {
+  width: 810;
+  margin-right: -2px;
+  display: inline-block; }
+
+.account-detail .transactions > div .transaction-right {
+  widith: 270;
+  margin-left: -2px;
+  display: inline-block;
+  text-align: right; }
+
+.account-detail .transactions > div .description {
+  font-size: 43.2;
+  color: #3b3b3b;
+  padding-bottom: 9;
+  text-overflow: ellipsis; }
+
+.account-detail .transactions > div .date {
+  font-size: 36;
+  color: #696969; }
+
+.account-detail .transactions > div .amount {
+  font-size: 54;
+  color: #3b3b3b; }
+
+.account-detail .transactions > div .balance {
+  font-size: 36;
+  color: #696969; }
+
+/*# sourceMappingURL=account-detail.css.map */

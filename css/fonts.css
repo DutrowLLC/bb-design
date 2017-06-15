@@ -1,0 +1,140 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-Light.otf");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-RegularItalic.otf");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-Medium.otf");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-MediumItalic.otf");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-Semibold.otf");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-SemiboldItalic.otf");
+  font-weight: 600;
+  font-style: italic; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-Bold.otf");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-Heavy.otf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-text;
+  src: url("../fonts/SF/SFText-HeavyItalic.otf");
+  font-weight: 900;
+  font-style: italic; }
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Thin.otf");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Ultralight.otf");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Light.otf");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Medium.otf");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Semibold.otf");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Bold.otf");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Heavy.otf");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: san-francisco-display;
+  src: url("../fonts/SF/SFDisplay-Black.otf");
+  font-weight: 900;
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

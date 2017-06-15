@@ -1,0 +1,107 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.accounts-overview .footer > div:nth-child(1) {
+  color: #b20008; }
+
+.accounts-overview .account-list {
+  margin-top: 154.97006px; }
+
+.accounts-overview .account-list .account {
+  height: 320;
+  max-height: 320;
+  position: relative;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-width: 0 0 3px 0;
+  color: #626262; }
+
+.accounts-overview .account-list .account .account-left {
+  display: inline-block;
+  max-width: 594; }
+
+.accounts-overview .account-list .account .description {
+  font-size: 49.09091;
+  padding: 54 0 0 54; }
+
+.accounts-overview .account-list .account .available-balance {
+  float: right;
+  right: 108;
+  font-family: san-francisco-display;
+  font-weight: 200;
+  padding: 64 54 0 0;
+  color: #7c1119; }
+
+.accounts-overview .account-list .account .available-balance .amount {
+  display: flex; }
+
+.accounts-overview .account-list .account .available-balance .label {
+  text-align: center;
+  font-size: 36; }
+
+.accounts-overview .account-list .account .available-balance .symbol {
+  font-size: 60; }
+
+.accounts-overview .account-list .account .available-balance .dollars {
+  font-size: 120; }
+
+.accounts-overview .account-list .account .available-balance .cents {
+  font-size: 60; }
+
+.accounts-overview .account-list .account .current-balance {
+  display: flex;
+  padding: 12.8 0 0 54; }
+
+.accounts-overview .account-list .account .current-balance .label {
+  font-size: 30.85714;
+  padding: 6.75 13.5 0 0; }
+
+.accounts-overview .account-list .account .current-balance .symbol {
+  font-size: 27; }
+
+.accounts-overview .account-list .account .current-balance .dollars {
+  font-size: 43.2; }
+
+.accounts-overview .account-list .account .current-balance .cents {
+  font-size: 27; }
+
+.accounts-overview .account-list .account .more-chevron {
+  float: right;
+  font-size: 90;
+  padding: 0 30.85714 0 30.85714;
+  vertical-align: middle;
+  margin-top: 106.66667;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=accounts-overview.css.map */

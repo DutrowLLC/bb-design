@@ -1,0 +1,71 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.status-bar {
+  position: absolute;
+  top: 0;
+  width: 1080;
+  height: 40px;
+  z-index: 100;
+  background-color: transparent;
+  padding: 5px;
+  text-align: center;
+  align-content: center; }
+
+.status-bar > div {
+  width: 32%; }
+
+.status-bar > div:nth-child(1n) {
+  float: left;
+  display: inline-block;
+  padding-left: 10px; }
+
+.status-bar > div:nth-child(2n) {
+  display: inline-block;
+  text-align: center;
+  align-content: center; }
+
+.status-bar > div:nth-child(3n) {
+  float: right;
+  display: inline-block;
+  text-align: right;
+  padding-right: 20px;
+  margin-left: -20px; }
+
+.status-bar-brand-color,
+.page-type1 .status-bar,
+.account-detail .status-bar,
+.accounts-overview .status-bar {
+  color: white; }
+
+/*# sourceMappingURL=status-bar.css.map */

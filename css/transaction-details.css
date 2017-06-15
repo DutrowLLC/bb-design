@@ -1,0 +1,101 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.transaction-details {
+  background-color: #e0e0e0; }
+
+.transaction-details .body {
+  position: absolute;
+  top: 154.97006px;
+  left: 0;
+  width: 1080;
+  text-align: center; }
+
+.transaction-details .body .header {
+  margin: 108; }
+
+.transaction-details .body .header .description {
+  font-size: 47.92017; }
+
+.transaction-details .body .details-body {
+  margin-right: 75.6;
+  margin-left: 75.6;
+  background-color: white;
+  padding: 75.6; }
+
+.transaction-details .body .details-body .amount-block {
+  border-style: solid;
+  border-color: #a9a9a9;
+  border-width: 0 0 3px 0;
+  padding: 0 0 75.6 0;
+  text-align: left; }
+
+.transaction-details .body .details-body .amount-block .label {
+  font-size: 40.73215;
+  font-family: san-francisco-text;
+  font-weight: 500;
+  padding: 32.4; }
+
+.transaction-details .body .details-body .amount-block .amount {
+  font-family: san-francisco-display;
+  font-size: 78.03;
+  font-weight: 200;
+  vertical-align: top; }
+
+.transaction-details .body .details-body .amount-block .amount .symbol {
+  font-size: 42.9165;
+  vertical-align: top; }
+
+.transaction-details .body .details-body .amount-block .amount .cents {
+  font-size: 42.9165;
+  vertical-align: top; }
+
+.transaction-details .body .details-body .date-block {
+  font-size: 47.92017;
+  font-family: san-francisco-display;
+  padding-top: 21.6; }
+
+.transaction-details .body .details-body .date-block .label {
+  display: inline-block;
+  width: 47%;
+  text-align: left;
+  font-weight: 600; }
+
+.transaction-details .body .details-body .date-block .date {
+  display: inline-block;
+  width: 47%;
+  text-align: right;
+  font-weight: 500;
+  color: #6f6f6f; }
+
+/*# sourceMappingURL=transaction-details.css.map */

@@ -1,0 +1,73 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.font-demo-table tr td:nth-child(2) {
+  font-family: san-francisco-text; }
+
+.font-demo-table tr td:nth-child(3) {
+  font-family: san-francisco-display; }
+
+.font-demo-table tr:nth-child(1) {
+  font-size: 108; }
+
+.font-demo-table tr:nth-child(2) {
+  font-size: 91.8; }
+
+.font-demo-table tr:nth-child(3) {
+  font-size: 78.03; }
+
+.font-demo-table tr:nth-child(4) {
+  font-size: 66.3255; }
+
+.font-demo-table tr:nth-child(5) {
+  font-size: 56.37667; }
+
+.font-demo-table tr:nth-child(6) {
+  font-size: 47.92017; }
+
+.font-demo-table tr:nth-child(7) {
+  font-size: 40.73215; }
+
+.font-demo-table tr:nth-child(8) {
+  font-size: 34.62233; }
+
+.font-demo-table tr:nth-child(9) {
+  font-size: 29.42898; }
+
+.font-demo-table tr:nth-child(10) {
+  font-size: 25.01463; }
+
+.font-demo-table tr:nth-child(11) {
+  font-size: 21.26244; }
+
+/*# sourceMappingURL=font-demo.css.map */

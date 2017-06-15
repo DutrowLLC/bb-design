@@ -1,0 +1,97 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.mobile-deposit .body .heading-container .heading-block {
+  background-color: white;
+  margin: 64 90 64 90;
+  padding: 63.52941;
+  text-align: center; }
+
+.mobile-deposit .body .heading-container .mobile-heading {
+  font-size: 49.09091;
+  font-weight: 500;
+  padding: 11.86813;
+  color: #210506; }
+
+.mobile-deposit .body .heading-container .account-description {
+  font-size: 49.09091;
+  font-weight: 300;
+  padding: 11.86813;
+  color: #9b9b9b; }
+
+.mobile-deposit .body .heading-container .deposit-available {
+  font-size: 39.27273;
+  padding: 11.86813 108 11.86813 108;
+  font-family: san-francisco-text;
+  font-weight: 600;
+  color: #008a24; }
+
+.mobile-deposit .body .configuration-container .option .select-section .amount-available .amount {
+  color: #008a24; }
+
+.mobile-deposit .body .configuration-container .option .label-check {
+  display: inline-block;
+  width: 540;
+  max-width: 540;
+  max-height: 192;
+  overflow: hidden;
+  color: #210506; }
+
+.mobile-deposit .body .configuration-container .option .select-section-check {
+  display: inline-block;
+  text-align: right;
+  padding-right: 27;
+  width: 324; }
+
+.mobile-deposit .body .configuration-container .option .check-image-box {
+  border-style: solid;
+  border-width: 7.71429;
+  border-color: #9b9b9b;
+  text-align: center;
+  font-family: san-francisco-text;
+  font-weight: 300;
+  font-size: 38.4;
+  height: 96; }
+
+.mobile-deposit .body .configuration-container .option .check-image-box-image {
+  text-align: center;
+  font-family: san-francisco-text;
+  font-weight: 300;
+  font-size: 38.4;
+  height: 96; }
+
+.mobile-deposit .body .md-confirm-button-section {
+  text-align: center;
+  margin-top: 128; }
+
+/*# sourceMappingURL=mobile-deposit.css.map */

@@ -1,0 +1,133 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.configure-transfer-or-payment {
+  background-color: #e0e0e0; }
+
+.configure-transfer-or-payment .body {
+  position: absolute;
+  top: 154.97006px;
+  left: 0;
+  width: 1080;
+  font-family: san-francisco-display;
+  font-weight: 300; }
+
+.configure-transfer-or-payment .body .heading-tip {
+  width: 1080;
+  height: 98.46154;
+  color: #9b9b9b;
+  text-align: center;
+  font-size: 49.09091; }
+
+.heading-tip-working {
+  background-color: #210506; }
+
+.heading-tip-ready {
+  background-color: #b20008; }
+
+.configure-transfer-or-payment .body .configuration-container {
+  background-color: white; }
+
+.configure-transfer-or-payment .body .configuration-container .option {
+  height: 192;
+  font-size: 49.09091; }
+
+.configure-transfer-or-payment .body .configuration-container .option .indicator {
+  display: inline-block;
+  width: 129.6;
+  padding-left: 18;
+  text-align: center; }
+
+.configure-transfer-or-payment .body .configuration-container .option .undone-indicator {
+  color: #c2c2c2; }
+
+.configure-transfer-or-payment .body .configuration-container .option .done-indicator {
+  color: #b20008; }
+
+.configure-transfer-or-payment .body .configuration-container .option .label {
+  display: inline-block;
+  width: 216;
+  max-width: 216;
+  max-height: 192;
+  overflow: hidden;
+  color: #210506; }
+
+.configure-transfer-or-payment .body .configuration-container .option .select-section {
+  display: inline-block;
+  text-align: right;
+  padding-right: 27;
+  width: 648; }
+
+.configure-transfer-or-payment .body .configuration-container .option .select-section .account-description {
+  font-size: 44.18182;
+  font-family: san-francisco-text;
+  font-weight: 400; }
+
+.configure-transfer-or-payment .body .configuration-container .option .select-section .amount-available {
+  font-family: san-francisco-text;
+  margin-top: 19.63636;
+  font-size: 34.36364;
+  font-weight: 500;
+  color: #565656; }
+
+.configure-transfer-or-payment .body .configuration-container .option .button {
+  display: inline-block;
+  color: #c2c2c2;
+  font-size: 72; }
+
+.configure-transfer-or-payment .body .configuration-container .option .separator {
+  display: inline-block;
+  height: 192;
+  border-style: solid;
+  border-width: 0 0 4px 0;
+  border-color: #e0e0e0; }
+
+.configure-transfer-or-payment .body .confirm-button-section {
+  text-align: center;
+  margin-top: 274.28571; }
+
+.configure-transfer-or-payment .body .confirm-button {
+  display: inline-block;
+  text-align: center;
+  font-size: 90;
+  padding: 49.09091;
+  font-family: san-francisco-text;
+  border-radius: 20px 0 20px 21px; }
+
+.configure-transfer-or-payment .confirm-button-enabled {
+  color: #b20008; }
+
+.configure-transfer-or-payment .confirm-button-disabled {
+  color: #6a6a6a !important; }
+
+/*# sourceMappingURL=configure-transfer-or-payment.css.map */

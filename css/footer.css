@@ -1,0 +1,113 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 147.69231;
+  border-style: solid;
+  border-width: 5px 0px 0px 0px; }
+
+.login .footer > div {
+  width: 327.27273;
+  font-size: 40; }
+
+.login .footer {
+  width: 1008;
+  left: 36;
+  opacity: .5;
+  border-color: #626262;
+  padding-top: 21.6; }
+
+.page-type1 .footer,
+.account-detail .footer,
+.accounts-overview .footer {
+  opacity: 1;
+  width: 1080;
+  left: 0px;
+  border-color: #b0b0b0;
+  background-color: #f9f9f9;
+  display: flex;
+  padding-top: 0; }
+
+.page-type1 .footer > div,
+.account-detail .footer > div,
+.accounts-overview .footer > div {
+  text-align: center;
+  font-size: 28.44444;
+  padding-top: 18.46154;
+  margin-top: 0;
+  color: #888888;
+  width: 24.5%; }
+
+.action-bar {
+  position: absolute;
+  bottom: 0;
+  height: 147.69231;
+  width: 1080;
+  background-color: white;
+  color: #0c62ad;
+  font-family: san-francisco-text;
+  font-size: 56.37667;
+  padding-top: 49.23077;
+  text-align: center;
+  font-weight: 400; }
+
+.action-bar .left {
+  display: inline-block;
+  width: 49%;
+  text-align: center; }
+
+.action-bar .right {
+  display: inline-block;
+  width: 49%;
+  text-align: center; }
+
+.action-bar .left-of-3 {
+  display: inline-block;
+  width: 32%;
+  text-align: left;
+  padding-left: 75.6; }
+
+.action-bar .middle-of-3 {
+  display: inline-block;
+  width: 32%;
+  text-align: center; }
+
+.action-bar .right-of-3 {
+  display: inline-block;
+  width: 32%;
+  text-align: right;
+  padding-right: 75.6; }
+
+/*# sourceMappingURL=footer-new.css.map */

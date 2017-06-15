@@ -1,0 +1,101 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.touch-id-settings {
+  background-color: #e0e0e0;
+  text-align: center;
+  font-family: san-francisco-display; }
+
+.touch-id-settings .footer > div:nth-child(4) {
+  color: #b20008; }
+
+.touch-id-settings .apple-touch-id {
+  margin-top: 115.2; }
+
+.touch-id-settings .body .header {
+  font-size: 47.92017;
+  padding-left: 129.6;
+  padding-right: 129.6;
+  font-family: san-francisco-display; }
+
+.touch-id-settings .body .info {
+  padding-left: 64.8;
+  padding-right: 64.8;
+  font-size: 47.92017;
+  font-weight: 300;
+  color: #4d4d4d;
+  font-family: san-francisco-text;
+  margin-bottom: 134.4; }
+
+.touch-id-settings .body .option {
+  background-color: white;
+  padding: 57.6 54; }
+
+.touch-id-settings .body .description {
+  display: inline-block;
+  width: 69%;
+  text-align: left;
+  font-size: 47.92017;
+  font-weight: 300; }
+
+.touch-id-settings .body .toggle-switch-container {
+  display: inline-block;
+  width: 29%;
+  background-color: lightblue;
+  text-align: right; }
+
+.toggle-switch {
+  position: relative;
+  height: 75.6;
+  margin: -60.48 0; }
+
+.toggle-switch .switch-back {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #b20008;
+  border-radius: 50px;
+  height: 75.6;
+  width: 129.6; }
+
+.toggle-switch .switch-front {
+  position: absolute;
+  top: 3.78;
+  right: 3.78;
+  background-color: white;
+  height: 68.04;
+  width: 68.04;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px #6b6b6b; }
+
+/*# sourceMappingURL=touch-id-settings.css.map */

@@ -1,0 +1,70 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.top-nav {
+  position: absolute;
+  top: 0;
+  padding-top: 40px;
+  height: 154.97006px;
+  width: 1080;
+  text-align: center;
+  font-size: 48px; }
+
+.top-nav .left {
+  float: left;
+  padding-left: 30px; }
+
+.top-nav .right {
+  float: right;
+  padding-right: 30px; }
+
+.top-nav-brand-color,
+.main-page .top-nav {
+  background-color: #b20008;
+  color: white; }
+
+.top-nav > span,
+.main-page .top-nav > span {
+  padding-top: 34.49102;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; }
+
+.main-page .top-nav .back-button {
+  font-size: 68px; }
+
+.sub-page .top-nav {
+  background-color: white;
+  color: #b20008; }
+
+/*# sourceMappingURL=top-nav.css.map */

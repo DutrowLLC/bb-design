@@ -1,0 +1,93 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.iphone-modal {
+  font-family: san-francisco-text; }
+
+.background1,
+.iphone-modal .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1920;
+  width: 1080;
+  background-color: black;
+  opacity: 0.3; }
+
+.iphone-modal .dialog {
+  position: absolute;
+  top: 37%;
+  left: 151.2;
+  width: 777.6;
+  background-color: white;
+  border-radius: 50px; }
+
+.iphone-modal .dialog .message-container {
+  text-align: center;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: #d3d3d7; }
+
+.iphone-modal .dialog .message {
+  padding: 36; }
+
+.iphone-modal .dialog .message .touch-id-icon {
+  display: inline-block;
+  mask-image: url("../assets/fingerprint.svg");
+  -webkit-mask-image: url("../assets/fingerprint.svg");
+  background-color: #ff3d32;
+  background-size: cover;
+  width: 90;
+  height: 90;
+  margin: 48; }
+
+.iphone-modal .dialog .message .message-heading {
+  font-size: 49.09091;
+  font-weight: 500;
+  margin: 0 0 19.2 0; }
+
+.iphone-modal .dialog .message .message-sub {
+  font-size: 38.57143;
+  margin: 0 0 19.2 0; }
+
+.iphone-modal .dialog .buttons-container {
+  height: 134.4;
+  text-align: center;
+  font-size: 54;
+  font-weight: 500;
+  padding-top: 36.48; }
+
+.iphone-modal .dialog .single-button {
+  color: #007aff; }
+
+/*# sourceMappingURL=iphone-modal.css.map */

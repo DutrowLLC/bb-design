@@ -1,0 +1,67 @@
+div {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.iphone {
+  margin: 50px;
+  width: 1080;
+  height: 1920;
+  max-width: 1080;
+  max-height: 1920;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.iPhoneLandscape {
+  margin: 50px;
+  width: 1920;
+  height: 1080;
+  max-width: 1920;
+  max-height: 1080;
+  overflow: hidden;
+  box-shadow: 0px 0px 75px black;
+  position: relative;
+  font-family: san-francisco-text; }
+
+.body1 {
+  position: absolute;
+  top: 154.97006px;
+  width: 1080; }
+
+.info-screen {
+  background-color: #e0e0e0; }
+
+.info-screen .body {
+  margin-top: 40px;
+  text-align: center;
+  color: #353535; }
+
+.info-screen .body .header {
+  font-family: san-francisco-display;
+  font-size: 72;
+  margin-top: 192;
+  margin-bottom: 64;
+  font-weight: 300; }
+
+.apple-touch-id {
+  width: 432;
+  height: 432; }
+
+.info-screen .body .sub-header {
+  margin-top: 64;
+  font-weight: 500;
+  font-size: 43.2;
+  padding-right: 216;
+  padding-left: 216; }
+
+.info-screen .body .info {
+  font-size: 40;
+  margin-top: 76.8;
+  padding-right: 108;
+  padding-left: 108;
+  color: #565656; }
+
+/*# sourceMappingURL=login-touch-id-ask.css.map */
